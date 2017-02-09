@@ -1,0 +1,61 @@
+body
+{
+	background-color: #a50c0e;
+}
+
+h1
+{
+	background-color: #36402c;
+
+	color: #fffebb;
+}
+
+nav
+{
+	background-color: #36402c;
+}
+
+a
+{
+	border-left: solid 1px #cccccc;
+
+	text-decoration: none;
+	font-weight: bold;
+
+	color: #fffebb;
+}
+
+div
+{	
+	background-color: #fffebb;
+}
+
+footer
+{
+	color: #a84d01;
+}
+
+li a:hover
+{
+	background-color: #fffebb;
+	color: #2e3323;
+}
+
+table a:hover
+{
+	float: right;
+
+	background-color: #fffebb;
+	color: #2e3323;
+}
+
+
+.left
+{
+	background-color: #450001;
+}
+
+#wrapper
+{
+	box-shadow: 20px 10px 50px #450001, -20px 10px 50px #450001;
+}
