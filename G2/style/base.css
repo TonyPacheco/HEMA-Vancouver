@@ -45,8 +45,13 @@ li a
 	margin-right: 0px;
 }
 
-
 li a:hover
+{
+	background-color: #dddc99;
+	color: #2e3323;
+}
+
+li a.active
 {
 	background-color: #fffebb;
 	color: #2e3323;
@@ -62,11 +67,6 @@ a
 	color: #fffebb;
 }
 
-div
-{	
-	background-color: #fffebb;
-}
-
 main
 {
 	padding: 0px;
@@ -74,9 +74,14 @@ main
 
 footer
 {
+	font-size: small;
+
 	color: #a84d01;
 
-	padding: 5px;
+	padding: 10px;
+
+	height: 100px;
+	width: 100%;
 }
 
 .left
@@ -86,6 +91,7 @@ footer
 
 #wrapper
 {
+	background-color: #fffebb;
 	box-shadow: 20px 10px 50px #450001, -20px 10px 50px #450001;
 
 	height: 100vh;
@@ -111,7 +117,7 @@ footer
 	text-align: center;
 	padding-top: 50px;
 
-	border: solid thin #0000ff;
+	border-bottom: solid thin #cccb88;
 }
 
 .left
