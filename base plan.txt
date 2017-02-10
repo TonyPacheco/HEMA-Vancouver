@@ -1,0 +1,11 @@
+Prab + Liam - index page and base css
+
+^^^Needs to be done before the next three items can be done
+
+Bhagwan - about us page with table and its css
+Jaisreet - about hema page and its css
+Tony - styles page and its css
+
+All - start figuring out the php once other pages are prototyped
+
+^^^ All done by tuesday night so we can start doing the documentation on wednesday
