@@ -1,18 +1,55 @@
 body
 {
 	background-color: #a50c0e;
+
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 h1
 {
 	background-color: #36402c;
-
 	color: #fffebb;
+
+	padding: 5px;
+	padding-top: 15px;
+
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+	text-align: center;
 }
 
 nav
 {
 	background-color: #36402c;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0px;
+	
+	overflow: hidden;
+
+	text-align: center;
+}
+
+li a
+{
+	padding: 14px 16px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+li a:hover
+{
+	background-color: #fffebb;
+	color: #2e3323;
 }
 
 a
@@ -30,25 +67,17 @@ div
 	background-color: #fffebb;
 }
 
+main
+{
+	padding: 0px;
+}
+
 footer
 {
 	color: #a84d01;
+
+	padding: 5px;
 }
-
-li a:hover
-{
-	background-color: #fffebb;
-	color: #2e3323;
-}
-
-table a:hover
-{
-	float: right;
-
-	background-color: #fffebb;
-	color: #2e3323;
-}
-
 
 .left
 {
@@ -58,4 +87,42 @@ table a:hover
 #wrapper
 {
 	box-shadow: 20px 10px 50px #450001, -20px 10px 50px #450001;
+
+	height: 100vh;
+}
+
+#navbar
+{
+	width: 100%;
+	height: 100%;
+}
+
+#navbar li
+{
+	display: inline;
+	float: right;
+}
+
+#imgplaceholder
+{
+	width: 100%;
+	height: 300px;
+
+	text-align: center;
+	padding-top: 50px;
+
+	border: solid thin #0000ff;
+}
+
+.left
+{
+	width: 20%;
+	height: 200px;
+	float: left;
+}
+
+.right
+{
+	width: 50%;
+	float: right;
 }
