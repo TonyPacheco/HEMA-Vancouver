@@ -63,20 +63,13 @@ main
     right: 10px;
     }
 
-<<<<<<< HEAD
 #login a {
     color: #fffebb;
     text-decoration: none;
 }
 
-=======
-	height: 100px;
-	width: 80%;
-	margin-left: 10%;
-	margin-right: 10%;
 
-	box-shadow: 20px 0px 50px #450001, -20px 0px 50px #450001;
-}
+
 
 main
 {	
@@ -88,9 +81,9 @@ main
 
 	box-shadow: 20px 0px 50px #450001, -20px 0px 50px #450001;
 }
->>>>>>> 171f68a80f422f11604774583db286d728864c1a
 
-footer
+
+#footer
 {
 	font-size: small;
 
@@ -104,8 +97,7 @@ footer
 
 	height: 50px;
 	width: 80%;
-<<<<<<< HEAD
-=======
+
 	
 	box-shadow: none, 20px 0px 50px #450001, -20px 0px 50px #450001;
 }
@@ -114,23 +106,21 @@ footer
 {
 	padding: 10px;
 }
->>>>>>> 171f68a80f422f11604774583db286d728864c1a
 
-}
 
-<<<<<<< HEAD
-footer a {
+
+#footer  a {
     float: right;
     }
-=======
+
 #wrapper
 {
 	background-color: #fffebb;
 
 	width: 100%;
->>>>>>> 171f68a80f422f11604774583db286d728864c1a
 
 
+}
 main p
 {
 	padding: 15px;
