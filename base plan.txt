@@ -1,11 +1,14 @@
-Prab + Liam - index page and base css
+Prab + Liam - index page and base css 
 
-^^^Needs to be done before the next three items can be done
-
-Bhagwan - about us page with table and its css
+Bhagwan - about us with table and its css also the contact us page
 Jaisreet - about hema page and its css
 Tony - styles page and its css
 
 All - start figuring out the php once other pages are prototyped
 
 ^^^ All done by tuesday night so we can start doing the documentation on wednesday
+
+Problems/questions
+Which page will have the forms? Do we need a new page for this? 
+We also need another page for the sitemap.
+Also the HEMA in BC page needs to be done. 
