@@ -18,10 +18,13 @@ main
 	background-color: #fffebb;
 	box-shadow: 20px 10px 50px #450001, -20px 10px 50px #450001;
 
-	width: 80%;
+	width: 100%;
+
+	overflow: auto;
 
 	margin-right: auto;
 	margin-left: auto;
+	background-color: #fffebb;
 }
 
 #header {
@@ -109,13 +112,6 @@ main
 #footer a
 {
   float: right;
-}
-
-#wrapper
-{
-	background-color: #fffebb;
-
-	width: 100%;
 }
 
 main p

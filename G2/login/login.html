@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>HEMA - Login</title>
 	<link rel="stylesheet" href="../style/base.css">
+	<link rel="stylesheet" href="../style/login.css">
 </head>
 <body>
 <div id="header">
@@ -41,12 +42,24 @@
 	
 	<main>
 		<div id="wrapper">
-			<form action="">
-				<textarea name="email" rows="1" cols="30">
-					Some Text
-				</textarea>
-				<input type="submit">
-			</form>			
+			<div class="left">
+				<div id="loginform">
+					Log in
+					<form action="">
+						<label for="email">email address</label><input type="email" name="email" id="email"><br>
+						<label for="password">password</label><input type="text" name="password" id="password"><br>
+					</form>
+				</div>
+			</div>
+			<div class="right">
+				<div id="registerform">
+					Sign up
+					<form action="">
+						<label for="email">email address</label><input type="email" name="email" id="email"><br>
+						<label for="password">password</label><input type="text" name="password" id="password"><br>
+					</form>
+				</div>
+			</div>
 		</div>	
 	</main>
 	
