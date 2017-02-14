@@ -7,8 +7,34 @@ Tony - styles page and its css
 All - start figuring out the php once other pages are prototyped
 
 ^^^ All done by tuesday night so we can start doing the documentation on wednesday
-
+----------------------------------------------
 Problems/questions
-Which page will have the forms? Do we need a new page for this? 
-We also need another page for the sitemap.
+
+new page for the php forum 
+
+another page for the sitemap.
+
 Also the HEMA in BC page needs to be done. 
+
+Needs Fonts
+
+have lists and paragraphs 
+
+nav should be unordered list
+
+Use the CSS link and hover pseudo-classes for the main navigation hyperlinks and 
+in-page hyperlinks 
+
+table 
+
+comment forum
+
+naming them by semantics (e.g. maincontent) rather than style (e.g. centeredtext).
+
+Document your design using CSS commenting.  
+
+---------------------------
+CHANGES !!!!
+
+the meet the team page and contact page were made in to a single page. 
+styles page, hema in bc page and about hema page all have picture at the top with text underneath. 
