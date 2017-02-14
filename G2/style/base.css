@@ -8,15 +8,18 @@ body
 
 main
 {	
+	width: 80%;
+
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 120px; 
+	padding-top: 120px;
+	
+	box-shadow: 20px 10px 50px #450001, -20px 10px 50px #450001;
 }
 
 #wrapper
 {
 	background-color: #fffebb;
-	box-shadow: 20px 10px 50px #450001, -20px 10px 50px #450001;
 
 	width: 100%;
 
@@ -55,8 +58,6 @@ main
   width: 150px;
 }
 
-
-
 #login
 {
   width:100px;
@@ -70,18 +71,6 @@ main
   color: #fffebb;
   text-decoration: none;
 }
-
-main
-{	
-	width: 80%;
-
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 120px;
-
-	box-shadow: 20px 0px 50px #450001, -20px 0px 50px #450001;
-}
-
 
 #footer
 {
@@ -97,17 +86,13 @@ main
 
 	height: 50px;
 	width: 80%;
-
 	
-	box-shadow: none, 20px 0px 50px #450001, -20px 0px 50px #450001;
 }
 
 #footercontent
 {
 	padding: 10px;
 }
-
-
 
 #footer a
 {
@@ -135,14 +120,14 @@ main p
 {
 	width: 50%;
 	float: left;
-
-	border-right: solid thin #cccb88;
 }
 
 .right
 {
 	width: auto;
 	margin-left: 50%;
+	
+	border-left: solid thin #cccb88;
 }
 
 #navbar
