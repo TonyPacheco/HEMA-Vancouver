@@ -156,7 +156,7 @@ li a, .button
 	display: inline-block;
 	color: #fffebb;
 	text-align: center;
-	padding: 14px 22px;
+	padding: 14px 42px;
 	text-decoration: none;
 }
 
@@ -173,12 +173,12 @@ li.dropdown {
 	display: none;
 	position: absolute;
 	background-color: #a50c0e;
-	min-width: 160px;
+	max-width: 140px;
 }
 
 .menu a {
     color: #fffebb;
-    padding: 12px 16px;
+    padding: 12px 20px;
     text-decoration: none;
     display: block;
     text-align: left;
