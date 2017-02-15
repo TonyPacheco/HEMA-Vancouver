@@ -17,7 +17,8 @@ main
 {	
 	width: 80%;
 
-	font-family: 'Titillium Web', sans-serif;
+	//font-family: 'Titillium Web', sans-serif;
+    font-family: 'Dosis', sans-serif;
 
 	margin-left: auto;
 	margin-right: auto;
@@ -67,7 +68,9 @@ header {
  	background-color: #36402c;
  	color: #fffebb;
 
-	font-family: 'Cinzel', serif;
+	//font-family: 'Cinzel', serif;	
+    font-family: 'Tinos', serif;
+
 
 	height: 120px;
 	width: 80%;
