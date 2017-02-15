@@ -30,17 +30,17 @@ main
 	background-color: #fffebb;
 }
 
-#header {
+header {
 	position: fixed;
 	top: 0;
-  background-color: #36402c;
+ 	background-color: #36402c;
 	height: 120px;
 	width: 80%;
 	margin-left: 10%;
 	margin-right: 10%;
 }
 
-#header h1
+header h1
 {	
 	color: #fffebb;
 	padding: 5px;
@@ -50,7 +50,7 @@ main
 	text-align: center;
 }
 
-#header img
+header img
 {
   bottom: 0px;
   position: absolute;
@@ -60,10 +60,15 @@ main
 
 #login
 {
-  width:100px;
+  width:auto;
   position: absolute;
   top: 10px;
   right: 10px;
+
+	margin: 10px;
+	padding: 5px;
+	border: thin solid #fffebb;
+	border-radius: 5px;
 }
 
 #login a
@@ -72,7 +77,17 @@ main
   text-decoration: none;
 }
 
-#footer
+#login:hover
+{
+	background-color: #fffebb;
+}
+
+#login:hover a
+{
+	color: #36402c;
+}
+
+footer
 {
 	font-size: small;
 
@@ -94,7 +109,7 @@ main
 	padding: 10px;
 }
 
-#footer a
+footer a
 {
   float: right;
 }
@@ -116,13 +131,13 @@ main p
 	border-bottom: solid thin #cccb88;
 }
 
-.left
+#whatIsHema
 {
 	width: 50%;
 	float: left;
 }
 
-.right
+#hemaFacts
 {
 	width: auto;
 	margin-left: 50%;
@@ -130,14 +145,28 @@ main p
 	border-left: solid thin #cccb88;
 }
 
-#navbar
+#loginpanel
+{
+	width: 50%;
+	float: left;
+}
+
+#registerpanel
+{
+	width: auto;
+	margin-left: 50%;
+	
+	border-left: solid thin #cccb88;
+}
+
+nav
 {
   position: absolute;
 	right: 0px;
   bottom: 0px;
 }
 
-#navbar ul
+nav ul
 {
 	list-style-type: none;
 	margin: 0;
@@ -145,13 +174,13 @@ main p
 	overflow: hidden;
 }
 
-#navbar li
+nav li
 {
 	float: left;
 }
 
 
-li a, .button
+nav li a, .button
 {
 	display: inline-block;
 	color: #fffebb;
@@ -160,13 +189,14 @@ li a, .button
 	text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .button {
+nav li a:hover, .dropdown:hover .button {
 background-color: #a50c0e;
 }
 
-li.dropdown {
-    display: inline-block;
-    }
+nav li.dropdown
+{
+	display: inline-block;
+}
 
 .menu
 {
@@ -184,7 +214,7 @@ li.dropdown {
     text-align: left;
     }
 
-li a:active {
+nav li a:active {
     background-color: black;
     }
 
@@ -231,3 +261,98 @@ input {
 	margin-right: 280px;
 	margin-bottom: 30px;
 }
+
+
+.loginform
+{
+	width: 75%;
+
+	margin: 25px auto 25px auto;
+}
+
+.loginform label
+{
+	padding-right: 10px;
+}
+
+.loginform td
+{
+	padding: 5px 0px;
+}
+
+.logintitle
+{
+	text-align: center;
+	
+	padding-bottom: 10px;
+	border-bottom: solid thin #a50c0e;
+}
+
+.loginsubmit
+{
+	text-align: center;
+	border-top: solid thin #a50c0e;
+}
+
+.loginsubmit input
+{
+	color: white;
+	background-color: #36402c;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#stylesList {
+
+	width: 25%;
+	float: left;
+	border-right: solid thin #cccb88;
+}
+
+#stylesList ul{
+	margin:auto;
+	width:80%;
+	padding-left:0;
+}
+
+
+#stylesList li{
+	text-decoration: none;
+	list-style-type: none;
+
+	padding: 20px 18px;
+	background-color: #36402c;
+	width : 80%;
+}
+
+#stylesList a
+{
+	width:80%;
+	display: inline-block;
+	color: #fffebb;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+}
+
+#styleDescriptions {
+	margin-left: 30%;
+}
+
+
+#sitemap a {
+	color: black;
+	padding-left: 5px;
+	
+}
+#wrapper h1 {
+	padding: 20px;
+	padding-bottom: 0px;
+}
+
+#sitemap li {
+	padding-top: 8px;
+
+}
+
