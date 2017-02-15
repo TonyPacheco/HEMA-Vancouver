@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>About Us</title>
-	<link rel="stylesheet" href="style/base.css">
+	<link rel="stylesheet" href="../style/base.css">
 </head>
 <body>
 	<div id="header">
@@ -45,47 +45,61 @@
 			
 			<div id="table">
 			
-				<table>
+				<table id="team">
+				
 				<caption>Meet The Team</caption>
-					<tr>
-						<th>Name</th>
-						<th>About Team</th>
+				
+					<tr class="team_row">
+						<th class="team_h">Name</th>
+						<th class="team_h">About Team</th>
 					</tr>
-					<tr>
-						<th>Tony Pacheco</th>
-						<th> </th>
+					<tr class="team_row">
+						<td class="team_d">Tony Pacheco</td>
+						<td class="team_d"> </td>
 					</tr>
-					<tr>
-						<th>Bhagwan Singh Virdi</th> 
-						<th></th>
+					<tr class="team_row">
+						<td class="team_d">Bhagwan Singh Virdi</td> 
+						<td class="team_d"></td>
 					</tr>
-					<tr>
-						<th>Prabhvir Saran</th> 
-						<th></th>
+					<tr class="team_row">
+						<td class="team_d">Prabhvir Saran</td> 
+						<td class="team_d"></td>
 					</tr>
-					<tr>
-						<th>Liam Maclntyre</th> 
-						<th></th>
+					<tr class="team_row">
+						<td class="team_d">Liam Maclntyre</td> 
+						<td class="team_d"></td>
 					</tr>
-					<tr>
-						<th>Jaisreet Khaira</th> 
-						<th></th>
+					<tr class="team_row">
+						<td class="team_d">Jaisreet Khaira</td> 
+						<td class="team_d"></td>
 					</tr>	
+					
 				</table>
 				
 				<div id="comment">
-					<textarea rows="10" cols="50" name="comment" form="usrform">Comment Here...</textarea>
-				</div>
-				
-				
-					<!--<div id="comment">
 					<form action="" method="post">
-						<textarea rows="10" cols="50" name="comment form="usrform">Hey... say something!
-						</textarea>
-						<input type="submit" value="Submit">
+						<table id="comment">
+							<tr>
+								<th><label for="firstlast">First & Last name:</label> </th>
+								<td><input id="firstlast" type="text" name="firstlast" value=""></td>
+							</tr>
+								
+							<tr>
+								<th><label for="email">Email:</label></th>
+								<td><input id="email" type="text" name="email" value=""></td>
+							</tr>
+							<tr>
+								<th><label for="comment">Leave us a comment!!</label></th>
+								<td>
+									<textarea rows="5" name="comment" value="comment"></textarea>
+									<input type="submit" value="Submit">
+								</td>
+							</tr>
+						</table>
+						
+						
 					</form>
-					</div>-->
-				
+				</div>
 				
 			</div>
 			

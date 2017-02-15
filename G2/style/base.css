@@ -195,3 +195,39 @@ li a:active {
 .dropdown:hover .menu {
     display: block;
     }
+	
+#comment textarea {
+	margin: auto;
+    width: 50%;
+    border: 3px solid #000000;
+    padding: 10px;
+}
+
+#team {
+	margin: auto;
+	width: 80%;
+}
+
+.team_d{
+	border: 1px solid black;
+	height: 5px;
+	padding: 10px;
+}
+
+.team_h{
+	border: 1px solid black;
+	height: 5px;
+	padding: 10px;
+}
+
+caption {
+	font-size: 1.5em
+}
+
+.team_row:nth-child(odd){background-color: #f2f2f2}
+
+input {
+	float: right;
+	margin-right: 280px;
+	margin-bottom: 30px;
+}
