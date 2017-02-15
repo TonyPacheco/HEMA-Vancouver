@@ -4,12 +4,18 @@ Bhagwan - about us with table
 
 Tony - styles page 
 
-Jaisreet - site map
+Prab - site map (DONE)
 
-prabh - hema in bc / about hema page
+Tony - hema in bc / about hema page
 
 ----------------------------------------------
 <-----THINGS WE NEED----->
+
+Password should be hidden on the login/signup page
+
+Make the submit botton the same 
+
+Underline the Sitemap heading
 
 Needs Fonts
 
@@ -23,5 +29,6 @@ A/B Testing
 ---------------------------
 CHANGES !!!!
 
-the meet the team page and contact page were made in to a single page. 
+the meet the team page and contact page were made in to a single page.
+
 styles page, hema in bc page and about hema page all have picture at the top with text underneath. 
