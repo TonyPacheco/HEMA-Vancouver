@@ -1,0 +1,36 @@
+.loginform
+{
+	width: 75%;
+
+	margin: 25px auto 25px auto;
+}
+
+.loginform label
+{
+	padding-right: 10px;
+}
+
+.loginform td
+{
+	padding: 5px 0px;
+}
+
+.tabletitle
+{
+	text-align: center;
+	
+	padding-bottom: 10px;
+	border-bottom: solid thin #a50c0e;
+}
+
+.loginsubmit
+{
+	text-align: center;
+	border-top: solid thin #a50c0e;
+}
+
+.loginsubmit input
+{
+	color: white;
+	background-color: black;
+}
