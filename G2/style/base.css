@@ -246,4 +246,7 @@ nav li a:active {
 {
 	color: white;
 	background-color: #36402c;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
 }
