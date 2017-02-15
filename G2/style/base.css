@@ -257,7 +257,7 @@ nav li a, .button
 }
 
 nav li a:hover, .dropdown:hover .button {
-background-color: #a50c0e;
+	background-color: #a50c0e;
 }
 
 nav li.dropdown
@@ -386,6 +386,12 @@ caption
 
 	border-top: thin solid #fffebb;
 	text-decoration: none;
+}
+
+#stylesList li:hover
+{
+	background-color: #a50c0e;
+	cursor: pointer;
 }
 
 #styleDescriptions {
