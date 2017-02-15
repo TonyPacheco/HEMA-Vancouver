@@ -130,6 +130,20 @@ main p
 	border-left: solid thin #cccb88;
 }
 
+#loginpanel
+{
+	width: 50%;
+	float: left;
+}
+
+#registerpanel
+{
+	width: auto;
+	margin-left: 50%;
+	
+	border-left: solid thin #cccb88;
+}
+
 nav
 {
   position: absolute;
@@ -164,9 +178,10 @@ li a:hover, .dropdown:hover .button {
 background-color: #a50c0e;
 }
 
-li.dropdown {
-    display: inline-block;
-    }
+li.dropdown
+{
+	display: inline-block;
+}
 
 .menu
 {
