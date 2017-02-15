@@ -7,6 +7,11 @@ body
 	padding: 0px;
 }
 
+body h3{
+	text-align: center;
+	margin-bottom: 0;
+}
+
 /* main and wrapper define the main content panel */
 main
 {	
@@ -201,14 +206,13 @@ footer a
 {
 	width: 50%;
 	float: left;
+	border-right: solid thin #cccb88;
 }
 
 #indexFacts
 {
 	width: auto;
 	margin-left: 50%;
-	
-	border-left: solid thin #cccb88;
 }
 
 #imgplaceholder
