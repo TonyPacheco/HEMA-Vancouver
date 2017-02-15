@@ -38,15 +38,15 @@
 			<img id="bannerimg" src = "../../content/fenestraBanner.png" alt = "Two longsword fencers locked in a high bind." width="100%">
 			<div id="stylesList">
 				<ul>
-					<a><li>Longsword</li></a>
-					<a><li>Rapier</li></a>
-					<a><li>Sidesword</li></a>
-					<a><li>Wrestling</li></a>
-					<a><li class="listEnd">Other</li></a>
+					<a><li onclick="setLongsword()">Longsword</li></a>
+					<a><li onclick="setRapier()">Rapier</li></a>
+					<a><li onclick="setSidesword()">Sidesword</li></a>
+					<a><li onclick="setWrestling()">Wrestling</li></a>
+					<a><li onclick="setOther()">Other</li></a>
 				</ul>
 			</div>
 			<div id="styleDescriptions">
-				<h1>Style Name</h1>
+				<h1 id="styleName">Style Name</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
 		</div>	
@@ -58,5 +58,27 @@
 			<a href="../../sitemap/sitemap.html" >Site Map</a>
 		</div>
 	</footer>
+
+	<script>
+		function setLongsword() {
+			document.getElementById("styleName").innerHTML = "Longsword";
+		}
+
+		function setRapier() {
+			document.getElementById("styleName").innerHTML = "Rapier";
+		}
+
+		function setSidesword() {
+			document.getElementById("styleName").innerHTML = "Sidesword";
+		}
+
+		function setWrestling() {
+			document.getElementById("styleName").innerHTML = "Wrestling";
+		}
+
+		function setOther() {
+			document.getElementById("styleName").innerHTML = "Other";
+	}
+	</script>
 </body>
 </html>
