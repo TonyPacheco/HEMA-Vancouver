@@ -1,20 +1,18 @@
 Prab + Liam - index page and base css 
 
-Bhagwan - about us with table and its css also the contact us page
-Jaisreet - about hema page and its css
-Tony - styles page and its css
+Bhagwan - about us with table 
 
-All - start figuring out the php once other pages are prototyped
+Jaisreet - about hema page
+
+Tony - styles page 
+
+prabh - site map
+
+prabh - hema in bc (same as style )
 
 ^^^ All done by tuesday night so we can start doing the documentation on wednesday
 ----------------------------------------------
 Problems/questions
-
-new page for the php forum 
-
-another page for the sitemap.
-
-Also the HEMA in BC page needs to be done. 
 
 Needs Fonts
 
