@@ -33,7 +33,7 @@ main
 header {
 	position: fixed;
 	top: 0;
-  background-color: #36402c;
+ 	background-color: #36402c;
 	height: 120px;
 	width: 80%;
 	margin-left: 10%;
@@ -264,4 +264,41 @@ nav li a:active {
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
+}
+
+#stylesList {
+
+	width: 25%;
+	float: left;
+	border-right: solid thin #cccb88;
+}
+
+#stylesList ul{
+	margin:auto;
+	width:80%;
+	padding-left:0;
+}
+
+
+#stylesList li{
+	text-decoration: none;
+	list-style-type: none;
+
+	padding: 20px 18px;
+	background-color: #36402c;
+	width : 80%;
+}
+
+#stylesList a
+{
+	width:80%;
+	display: inline-block;
+	color: #fffebb;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+}
+
+#styleDescriptions {
+	margin-left: 30%;
 }
