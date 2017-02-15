@@ -165,7 +165,7 @@ nav li
 }
 
 
-li a, .button
+nav li a, .button
 {
 	display: inline-block;
 	color: #fffebb;
@@ -174,11 +174,11 @@ li a, .button
 	text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .button {
+nav li a:hover, .dropdown:hover .button {
 background-color: #a50c0e;
 }
 
-li.dropdown
+nav li.dropdown
 {
 	display: inline-block;
 }
@@ -199,7 +199,7 @@ li.dropdown
     text-align: left;
     }
 
-li a:active {
+nav li a:active {
     background-color: black;
     }
 
@@ -245,5 +245,5 @@ li a:active {
 .loginsubmit input
 {
 	color: white;
-	background-color: black;
+	background-color: #36402c;
 }
