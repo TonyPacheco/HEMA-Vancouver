@@ -59,8 +59,12 @@ main h1 {
 header {
 	position: fixed;
 	top: 0;
+
  	background-color: #36402c;
  	color: #fffebb;
+
+	font-family: 'Noticia Text', serif;
+
 	height: 120px;
 	width: 80%;
 	margin-left: 10%;
