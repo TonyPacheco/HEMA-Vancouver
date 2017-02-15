@@ -12,40 +12,35 @@
     
 		<nav>
 			<ul>
-        <li><a href="#">Home</a></li>
-        <li class="dropdown">
-          <a href="#" id="button1" class="button">HEMA </a>
-          <div id="menu" class="menu">
-            <a href="#">About HEMA</a>
-            <a href="#">Styles</a>
-            <a href="#">HEMA in BC</a>
-          </div>
-        </li>
-        <li class="dropdown">
-          <a href="#" id="button2" class="button">About Us</a>
-          <div id="menu2" class="menu">
-            <a href="#">Contact Us</a>
-            <a href="#">Meet the Team</a>
-          </div>    
-        </li>
-      </ul>
+                <li><a href="../index.html">Home</a></li>
+                <li class="dropdown">
+                  <a href="#" class="button">HEMA </a>
+                  <div class="menu">
+                    <a href="../hema/abouthema/abouthema.html">About HEMA</a>
+				    <a href="../hema/hemastyles/hemastyles.html">HEMA Styles</a>
+				    <a href="../hema/hemainbc/hemainbc.html">HEMA in BC</a>
+                  </div>
+                </li>
+                <li><a href="#">About Us</a></li>
+            </ul>
 		</nav>
     <div id="login">
-      <a href="#">Login/Signup</a>
+      <a href="../login/loginorsignup.html">Login/Signup</a>
     </div>
 	</header>
 	
 	<main>	
 		<div id="wrapper">
 			<div id="imgplaceholder">
+				<h1>Meet The Team</h1>
 				Team picture here!
 			</div>
 			
 			<div id="teamwrapper">
-			
+			<br>
 				<table id="team">
 				
-				<caption>Meet The Team</caption>
+				<caption>About The Team</caption>
 				
 					<tr class="team_row">
 						<th class="team_h">Name</th>
@@ -71,31 +66,36 @@
 						<td class="team_d">Jaisreet Khaira</td> 
 						<td class="team_d"></td>
 					</tr>	
-					
 				</table>
-				
+				<br>
 				<div id="comment">
 					<form action="" method="post">
 						<table id="comment">
 							<tr>
-								<th><label for="firstlast">First & Last name:</label> </th>
-								<td><input id="firstlast" type="text" name="firstlast" value=""></td>
+								<td>
+								<label for="firstlast">Name:</label><br>
+								<input id="firstlast" type="text" name="Name" value="">
+								</td>
 							</tr>
 						
 							<tr>
-								<th><label for="email">Email:</label></th>
-								<td><input id="email" type="text" name="email" value=""></td>
-							</tr>
-							
-							<tr>
-								<th><label for="comment">Leave us a comment!!</label></th>
 								<td>
+								<label for="email">Email:</label><br>
+								<input id="email" type="text" name="email" value="">
+								</td>
+							</tr>
+						
+							<tr>
+								<td>
+								<br>
+									<label for="comment">If you like the website; Leave us a comment!!</label>
 									<textarea rows="5" name="comment" value="comment"></textarea>
 									<input type="submit" value="Submit">
 								</td>
 							</tr>
 						</table>
 					</form>
+					<br>
 				</div>
 			</div>
 		</div>			
@@ -104,7 +104,7 @@
 	<footer>
   	<div id="footercontent"> 
 			&copy; 2017 some students 
-			<a href="#" >Site Map</a>
+			<a href="../sitemap/sitemap.html" >Site Map</a>
     </div>
 	</footer>
 </body>
