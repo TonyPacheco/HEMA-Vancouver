@@ -75,6 +75,14 @@ header img
   width: 150px;
 }
 
+#bannerimg
+{
+	padding: 0;
+	margin: 0;
+
+	display: block;
+}
+
 /* footer is a region fixed to the bottom of main containing copyright info and a link to the site map. */
 footer
 {
@@ -205,11 +213,11 @@ footer a
 
 #imgplaceholder
 {
-
 	background-size: 100%;
 	width: 100%;
-	height: 100%;
+	height: 200px;
 	text-align: center;
+	padding-top: 25px;
 	border-bottom: solid thin #cccb88;
 }
 
@@ -346,33 +354,50 @@ caption
 #stylesList ul
 {
   margin:auto;
-  width:80%;
+  width:100%;
   padding-left:0;
 }
-
 
 #stylesList li
 {
   text-decoration: none;
   list-style-type: none;
   
-  padding: 20px 18px;
+  margin: auto;
+  padding: 15px 0;
+
   background-color: #36402c;
-  width : 80%;
+  width : 100%;
 }
 
 #stylesList a
 {
-	width:80%;
+	width:100%;
 	display: inline-block;
 	color: #fffebb;
 	text-align: center;
-	padding: 4px;
+
+	padding: 0;
+	margin: 0;
+
+	border-top: thin solid #fffebb;
 	text-decoration: none;
 }
 
 #styleDescriptions {
-	margin-left: 30%;
+	margin-left: 25%;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#styleDescriptions h1 {
+	text-align: center;
+	font-size: large;
+
+	margin: 5px;
+	padding: 5px;
+
+	border-bottom: thin solid #cccb88;
 }
 
 /* sitemap selectors define style for elements in sitemap.html */
