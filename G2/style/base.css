@@ -30,7 +30,7 @@ main
 	background-color: #fffebb;
 }
 
-#header {
+header {
 	position: fixed;
 	top: 0;
   background-color: #36402c;
@@ -40,7 +40,7 @@ main
 	margin-right: 10%;
 }
 
-#header h1
+header h1
 {	
 	color: #fffebb;
 	padding: 5px;
@@ -50,7 +50,7 @@ main
 	text-align: center;
 }
 
-#header img
+header img
 {
   bottom: 0px;
   position: absolute;
@@ -72,7 +72,7 @@ main
   text-decoration: none;
 }
 
-#footer
+footer
 {
 	font-size: small;
 
@@ -94,7 +94,7 @@ main
 	padding: 10px;
 }
 
-#footer a
+footer a
 {
   float: right;
 }
@@ -116,13 +116,13 @@ main p
 	border-bottom: solid thin #cccb88;
 }
 
-.left
+#whatIsHema
 {
 	width: 50%;
 	float: left;
 }
 
-.right
+#hemaFacts
 {
 	width: auto;
 	margin-left: 50%;
@@ -130,14 +130,14 @@ main p
 	border-left: solid thin #cccb88;
 }
 
-#navbar
+nav
 {
   position: absolute;
 	right: 0px;
   bottom: 0px;
 }
 
-#navbar ul
+nav ul
 {
 	list-style-type: none;
 	margin: 0;
@@ -145,7 +145,7 @@ main p
 	overflow: hidden;
 }
 
-#navbar li
+nav li
 {
 	float: left;
 }
@@ -195,3 +195,40 @@ li a:active {
 .dropdown:hover .menu {
     display: block;
     }
+
+.loginform
+{
+	width: 75%;
+
+	margin: 25px auto 25px auto;
+}
+
+.loginform label
+{
+	padding-right: 10px;
+}
+
+.loginform td
+{
+	padding: 5px 0px;
+}
+
+.logintitle
+{
+	text-align: center;
+	
+	padding-bottom: 10px;
+	border-bottom: solid thin #a50c0e;
+}
+
+.loginsubmit
+{
+	text-align: center;
+	border-top: solid thin #a50c0e;
+}
+
+.loginsubmit input
+{
+	color: white;
+	background-color: black;
+}
