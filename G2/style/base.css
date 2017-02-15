@@ -86,6 +86,8 @@ header img
 	margin: 0;
 
 	display: block;
+
+	border-bottom: thin solid #cccb88;
 }
 
 /* footer is a region fixed to the bottom of main containing copyright info and a link to the site map. */
@@ -381,11 +383,16 @@ caption
 	color: #fffebb;
 	text-align: center;
 
+	border-bottom: thin solid #fffebb;
+
 	padding: 0;
 	margin: 0;
 
-	border-top: thin solid #fffebb;
 	text-decoration: none;
+}
+#stylesList a:last-child
+{
+	border-bottom: none;
 }
 
 #stylesList li:hover
