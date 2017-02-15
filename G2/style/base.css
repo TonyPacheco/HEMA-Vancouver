@@ -302,3 +302,19 @@ nav li a:active {
 #styleDescriptions {
 	margin-left: 30%;
 }
+
+
+#sitemap a {
+	color: black;
+	padding-left: 5px;
+	
+}
+#wrapper h1 {
+	padding: 20px;
+	padding-bottom: 0px;
+}
+
+#sitemap li {
+	padding-top: 8px;
+
+}
