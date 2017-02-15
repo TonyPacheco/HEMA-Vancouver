@@ -1,15 +1,14 @@
 Prab + Liam - index page and base css 
 
-liam - temp php
-
 Bhagwan - about us with table 
 
-Jaisreet - about hema page and site map 
+Jaisreet - about hema page
 
 Tony - styles page 
 
+prabh - site map
 
-prabh - hema in bc same as style 
+prabh - hema in bc (same as style )
 
 ^^^ All done by tuesday night so we can start doing the documentation on wednesday
 ----------------------------------------------
