@@ -1,5 +1,4 @@
-/* body selector defines background */
-
+/* body defines background and bottom-level container*/
 body
 {
 	background-color: #a50c0e;
@@ -9,7 +8,6 @@ body
 }
 
 /* main and wrapper define the main content panel */
-
 main
 {	
 	width: 80%;
@@ -19,6 +17,12 @@ main
 	padding-top: 120px;
 	
 	box-shadow: 20px 10px 50px #450001, -20px 10px 50px #450001;
+}
+
+main p
+{
+	padding: 15px;
+	margin: 0px;
 }
 
 #wrapper
@@ -34,9 +38,12 @@ main
 	background-color: #fffebb;
 }
 
-/* header is a fixed region at the top of the page
- * containing the logo and navigation 
- */
+#wrapper h1 {
+	padding: 20px;
+	padding-bottom: 0px;
+}
+
+/* header is a fixed region at the top of the page containing the logo and navigation */
 header {
 	position: fixed;
 	top: 0;
@@ -65,10 +72,7 @@ header img
   width: 150px;
 }
 
-/* footer is a region fixed to the bottom of main
- * containing copyright info and a link to the
- * site map.
- */
+/* footer is a region fixed to the bottom of main containing copyright info and a link to the site map. */
 footer
 {
 	font-size: small;
@@ -86,19 +90,17 @@ footer
 	
 }
 
-#footercontent
-{
-	padding: 10px;
-}
-
 footer a
 {
   float: right;
 }
 
-/* login elements define the style of forms on the
- * login/register page.
- */
+#footercontent
+{
+	padding: 10px;
+}
+
+/* login elements define the style of forms on the login/register page. */
 #login
 {
   width:auto;
@@ -128,37 +130,6 @@ footer a
 	color: #36402c;
 }
 
-main p
-{
-	padding: 15px;
-	margin: 0px;
-}
-
-#imgplaceholder
-{
-	width: 100%;
-	height: 300px;
-
-	text-align: center;
-	padding-top: 50px;
-
-	border-bottom: solid thin #cccb88;
-}
-
-#whatIsHema
-{
-	width: 50%;
-	float: left;
-}
-
-#hemaFacts
-{
-	width: auto;
-	margin-left: 50%;
-	
-	border-left: solid thin #cccb88;
-}
-
 #loginpanel
 {
 	width: 50%;
@@ -173,10 +144,78 @@ main p
 	border-left: solid thin #cccb88;
 }
 
+.loginform
+{
+	width: 75%;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.loginform label
+{
+	padding-right: 10px;
+}
+
+.loginform td
+{
+	padding: 10px 0px;
+}
+
+.logintitle
+{
+	text-align: center;
+	
+	padding-bottom: 10px;
+	border-bottom: solid thin #a50c0e;
+}
+
+.loginsubmit
+{
+	text-align: center;
+	border-top: solid thin #a50c0e;
+}
+
+.loginsubmit input
+{
+	color: white;
+	background-color: #36402c;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* index selectors define style of elements in index.html */
+#indexWhatIs
+{
+	width: 50%;
+	float: left;
+}
+
+#indexFacts
+{
+	width: auto;
+	margin-left: 50%;
+	
+	border-left: solid thin #cccb88;
+}
+
+#imgplaceholder
+{
+	width: 100%;
+	height: 300px;
+
+	text-align: center;
+	padding-top: 50px;
+
+	border-bottom: solid thin #cccb88;
+}
+
+/* nav, .menu and .dropdown define style for the navigation bar */
 nav
 {
   position: absolute;
-	right: 0px;
+  right: 0px;
   bottom: 0px;
 }
 
@@ -247,6 +286,7 @@ nav li a:active {
     padding: 10px;
 }
 
+/* team selectors define style for the about_us page */
 #team {
 	margin: auto;
 	width: 80%;
@@ -276,47 +316,7 @@ caption {
 	font-size: 1.5em
 }
 
-.loginform
-{
-	width: 75%;
-
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.loginform label
-{
-	padding-right: 10px;
-}
-
-.loginform td
-{
-	padding: 10px 0px;
-}
-
-.logintitle
-{
-	text-align: center;
-	
-	padding-bottom: 10px;
-	border-bottom: solid thin #a50c0e;
-}
-
-.loginsubmit
-{
-	text-align: center;
-	border-top: solid thin #a50c0e;
-}
-
-.loginsubmit input
-{
-	color: white;
-	background-color: #36402c;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-}
-
+/* styles selectors define style for the styles.html page */
 #stylesList {
 	width: 25%;
 	float: left;
@@ -353,15 +353,11 @@ caption {
 	margin-left: 30%;
 }
 
+/* sitemap selectors define style for elements in sitemap.html */
 #sitemap a {
 	color: black;
 	padding-left: 5px;
 	
-}
-
-#wrapper h1 {
-	padding: 20px;
-	padding-bottom: 0px;
 }
 
 #sitemap li {
