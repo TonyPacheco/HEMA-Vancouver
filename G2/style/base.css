@@ -410,6 +410,24 @@ caption
 	border-bottom: thin solid #cccb88;
 }
 
+/* about selectors define style for elements in abouthema.html */
+#aboutcontent h1
+{
+	text-align: center;
+	font-size: large;
+
+	margin: 5px;
+	padding: 5px;
+
+	border-bottom: thin solid #cccb88;
+}
+
+#aboutcontent p
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* sitemap selectors define style for elements in sitemap.html */
 #sitemap a
 {
