@@ -13,11 +13,7 @@ Tony - hema in bc / about hema page
 
 Password should be hidden on the login/signup page
 
-Make the submit botton the same 
-
-Underline the Sitemap heading
-
-Needs Fonts
+Needs Fonts for the header and the footer 
 
 Use the CSS link and hover pseudo-classes for the main navigation hyperlinks and 
 in-page hyperlinks !!!
@@ -25,6 +21,14 @@ in-page hyperlinks !!!
 CSS commenting.  
 
 A/B Testing 
+--
+SiteMap link should have the same style as the rest of the website. 
+
+Add padding to the login/signup page
+
+Make the submit botton the same 
+
+Underline the Sitemap heading
 
 ---------------------------
 CHANGES !!!!
