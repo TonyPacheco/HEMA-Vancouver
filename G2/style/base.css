@@ -60,16 +60,31 @@ header img
 
 #login
 {
-  width:100px;
+  width:auto;
   position: absolute;
   top: 10px;
   right: 10px;
+
+	margin: 10px;
+	padding: 5px;
+	border: thin solid #fffebb;
+	border-radius: 5px;
 }
 
 #login a
 {
   color: #fffebb;
   text-decoration: none;
+}
+
+#login:hover
+{
+	background-color: #fffebb;
+}
+
+#login:hover a
+{
+	color: #36402c;
 }
 
 footer
