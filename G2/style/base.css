@@ -17,6 +17,8 @@ main
 {	
 	width: 80%;
 
+	font-family: 'Titillium Web', sans-serif;
+
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 120px;
@@ -36,8 +38,6 @@ main h1 {
 
 	margin: 5px;
 	padding: 5px;
-
-	padding-bottom: 10px;
 
 	border-bottom: thin solid #cccb88;
 }
@@ -63,7 +63,7 @@ header {
  	background-color: #36402c;
  	color: #fffebb;
 
-	font-family: 'Noticia Text', serif;
+	font-family: 'Cinzel', serif;
 
 	height: 120px;
 	width: 80%;
@@ -73,7 +73,8 @@ header {
 
 header h1
 {	
-	font-size: 36pt;
+	font-size: 38pt;
+	font-weight: normal;
 
 	color: #fffebb;
 	padding: 5px;
@@ -105,6 +106,7 @@ header img
 footer
 {
 	font-size: small;
+	font-family: 'Titillium Web', sans-serif;
 
 	background-color: #fffebb;
 	color: #a84d01;
