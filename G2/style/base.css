@@ -1,3 +1,5 @@
+/* body selector defines background */
+
 body
 {
 	background-color: #a50c0e;
@@ -5,6 +7,8 @@ body
 	margin: 0px;
 	padding: 0px;
 }
+
+/* main and wrapper define the main content panel */
 
 main
 {	
@@ -30,6 +34,9 @@ main
 	background-color: #fffebb;
 }
 
+/* header is a fixed region at the top of the page
+ * containing the logo and navigation 
+ */
 header {
 	position: fixed;
 	top: 0;
@@ -58,6 +65,40 @@ header img
   width: 150px;
 }
 
+/* footer is a region fixed to the bottom of main
+ * containing copyright info and a link to the
+ * site map.
+ */
+footer
+{
+	font-size: small;
+
+	background-color: #fffebb;
+	color: #a84d01;
+	border-top: thin solid #cccb88;
+
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+
+	height: 50px;
+	width: 80%;
+	
+}
+
+#footercontent
+{
+	padding: 10px;
+}
+
+footer a
+{
+  float: right;
+}
+
+/* login elements define the style of forms on the
+ * login/register page.
+ */
 #login
 {
   width:auto;
@@ -85,33 +126,6 @@ header img
 #login:hover a
 {
 	color: #36402c;
-}
-
-footer
-{
-	font-size: small;
-
-	background-color: #fffebb;
-	color: #a84d01;
-	border-top: thin solid #cccb88;
-
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0px;
-
-	height: 50px;
-	width: 80%;
-	
-}
-
-#footercontent
-{
-	padding: 10px;
-}
-
-footer a
-{
-  float: right;
 }
 
 main p
