@@ -30,6 +30,18 @@ main p
 	margin: 0px;
 }
 
+main h1 {
+	text-align: center;
+	font-size: large;
+
+	margin: 5px;
+	padding: 5px;
+
+	padding-bottom: 10px;
+
+	border-bottom: thin solid #cccb88;
+}
+
 #wrapper
 {
 	background-color: #fffebb;
@@ -43,13 +55,12 @@ main p
 	background-color: #fffebb;
 }
 
-#wrapper h1 {
-	padding: 20px;
-	padding-bottom: 0px;
-}
-
 /* header is a fixed region at the top of the page containing the logo and navigation */
 header {
+	background-image: url(../content/logo.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 210px;
 	position: fixed;
 	top: 0;
  	background-color: #36402c;
@@ -86,6 +97,8 @@ header img
 	margin: 0;
 
 	display: block;
+
+	border-bottom: thin solid #cccb88;
 }
 
 /* footer is a region fixed to the bottom of main containing copyright info and a link to the site map. */
@@ -297,17 +310,37 @@ nav li a:active
   display: block;
 }
 	
+
+
+/* team selectors define style for the aboutus page */
+
+#comment p {
+    margin-left: 23px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
 #comment textarea
 {
   margin: auto;
-  width: 90%;
-  padding: 10px;
+  width: 130%;
+  /*removed padding */
+  
 }
 
-/* team selectors define style for the about_us page */
+#comment 
+{
+	margin-left: 35px;
+}
+
+#tablediv h1 {
+    margin-left: 23px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
 #team
 {
-  margin: auto;
+  margin-left: 70px; /* it was margin auto */ 
   width: 80%;	
 }
 
@@ -336,10 +369,6 @@ nav li a:active
   padding: 10px;
 }
 
-#comment 
-{
-	margin-left: 50px;
-}
 
 caption
 {
@@ -381,11 +410,16 @@ caption
 	color: #fffebb;
 	text-align: center;
 
+	border-bottom: thin solid #fffebb;
+
 	padding: 0;
 	margin: 0;
 
-	border-top: thin solid #fffebb;
 	text-decoration: none;
+}
+#stylesList a:last-child
+{
+	border-bottom: none;
 }
 
 #stylesList li:hover
@@ -400,14 +434,19 @@ caption
 	padding-top: 0;
 }
 
-#styleDescriptions h1 {
-	text-align: center;
-	font-size: large;
+/* about selectors define style for elements in abouthema.html */
 
-	margin: 5px;
-	padding: 5px;
+#aboutcontent p
+{
+	margin-left: auto;
+	margin-right: auto;
+}
 
-	border-bottom: thin solid #cccb88;
+#hemamap
+{
+	display: block;
+
+	margin: 10px auto;
 }
 
 /* sitemap selectors define style for elements in sitemap.html */
