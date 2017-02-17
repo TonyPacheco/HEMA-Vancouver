@@ -83,6 +83,7 @@ header img {
 	margin: 0;
 	display: block;
 	border-bottom: thin solid #cccb88;
+	width: 100%;
 }
 
 /* footer is a region fixed to the bottom of main containing copyright info and a link to the site map. */
@@ -260,10 +261,11 @@ nav .dropdown:hover .menu {
 }
 	
 /* team selectors define style for the aboutus page */
-#comment p {
-    margin-left: 23px;
+#comment h2 {
     font-size: 1.1em;
     font-weight: bold;
+	text-align: left;
+	padding-left: 3px;
 }
 
 #comment textarea {
@@ -272,11 +274,11 @@ nav .dropdown:hover .menu {
  }
 
 #comment  {
-	margin-left: 35px;
+	margin-left: 70px;
 }
 
 #tablediv h1 {
-    margin-left: 23px;
+    
     font-size: 1.3em;
     font-weight: bold;
 }
@@ -308,7 +310,6 @@ nav .dropdown:hover .menu {
 	padding: 10px;
 }
 
-
 caption {
 	font-size: 1.5em
 }
@@ -318,32 +319,22 @@ caption {
 	width: 25%;
 	float: left;
 	border-right: solid thin #cccb88;
+	
 }
 
 #stylesList ul {
-	margin:auto;
-	width:100%;
-	padding-left:0;
+	margin: auto;
+	width: 100%;
+	padding-left: 0;
 }
 
 #stylesList li {
-	text-decoration: none;
 	list-style-type: none;
-	margin: auto;
-	padding: 15px 0;
+	padding: 15px;
 	background-color: #36402c;
-	width : 100%;
-}
-
-#stylesList a {
-	width:100%;
-	display: inline-block;
 	color: #fffebb;
 	text-align: center;
 	border-bottom: thin solid #fffebb;
-	padding: 0;
-	margin: 0;
-	text-decoration: none;
 }
 
 #stylesList a:last-child {
@@ -370,6 +361,8 @@ caption {
 #hemamap {
 	display: block;
 	margin: 10px auto;
+	width: 50%;
+	height: 50%;
 }
 
 /* sitemap selectors define style for elements in sitemap.html */
@@ -378,6 +371,11 @@ caption {
 	padding-left: 5px;	
 }
 
-#sitemap li{
+#sitemap li {
 	padding-top: 8px;
+	
+}
+
+#sitemap .indentedlist {
+	list-style-position: inside;
 }
