@@ -1,34 +1,27 @@
 /* body defines background and bottom-level container*/
-body
-{
+body {
 	background-color: #a50c0e;
 
 	margin: 0px;
 	padding: 0px;
 }
 
-body h3{
+body h3 {
 	text-align: center;
 	margin-bottom: 0;
 }
 
 /* main and wrapper define the main content panel */
-main
-{	
+main {	
 	width: 80%;
-
 	font-family: 'Titillium Web', sans-serif;
-    //font-family: 'Dosis', sans-serif;
-
-	margin-left: auto;
+    margin-left: auto;
 	margin-right: auto;
 	padding-top: 120px;
-	
 	box-shadow: 20px 10px 50px #450001, -20px 10px 50px #450001;
 }
 
-main p
-{
+main p {
 	padding: 15px;
 	margin: 0px;
 }
@@ -36,21 +29,15 @@ main p
 main h1 {
 	text-align: center;
 	font-size: large;
-
 	margin: 5px;
 	padding: 5px;
-
 	border-bottom: thin solid #cccb88;
 }
 
-#wrapper
-{
+#wrapper {
 	background-color: #fffebb;
-
 	width: 100%;
-
 	overflow: auto;
-
 	margin-right: auto;
 	margin-left: auto;
 	background-color: #fffebb;
@@ -64,25 +51,18 @@ header {
 	background-size: 210px;
 	position: fixed;
 	top: 0;
-
- 	background-color: #36402c;
+	background-color: #36402c;
  	color: #fffebb;
-
 	font-family: 'Cinzel', serif;	
-    //font-family: 'Tinos', serif;
-
-
 	height: 120px;
 	width: 80%;
 	margin-left: 10%;
 	margin-right: 10%;
 }
 
-header h1
-{	
+header h1 {	
 	font-size: 38pt;
 	font-weight: normal;
-
 	color: #fffebb;
 	padding: 5px;
 	padding-top: 15px;
@@ -91,131 +71,106 @@ header h1
 	text-align: center;
 }
 
-header img
-{
+header img {
   bottom: 0px;
   position: absolute;
   height: 70px;
   width: 150px;
 }
 
-#bannerimg
-{
+#bannerimg {
 	padding: 0;
 	margin: 0;
-
 	display: block;
-
 	border-bottom: thin solid #cccb88;
+	width: 100%;
 }
 
 /* footer is a region fixed to the bottom of main containing copyright info and a link to the site map. */
-footer
-{
+footer {
 	font-size: small;
 	font-family: 'Titillium Web', sans-serif;
-
 	background-color: #fffebb;
 	color: #a84d01;
 	border-top: thin solid #cccb88;
-
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0px;
-
 	height: 50px;
 	width: 80%;
-	
 }
 
-footer a
-{
+footer a {
   float: right;
 }
 
-#footercontent
-{
+#footercontent {
 	padding: 10px;
 }
 
 /* login elements define the style of forms on the login/register page. */
-#login
-{
-  width:auto;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-
+#login {
+	width:auto;
+	position: absolute;
+	top: 10px;
+	right: 10px;
 	margin: 10px;
 	padding: 5px;
 	border: thin solid #fffebb;
 	border-radius: 5px;
 }
 
-#login a
-{
-  color: #fffebb;
-  text-decoration: none;
+#login a {
+	color: #fffebb;
+	text-decoration: none;
 }
 
-#login:hover
-{
+#login:hover {
 	background-color: #fffebb;
 }
 
-#login:hover a
-{
+#login:hover a {
 	color: #36402c;
 }
 
-#loginpanel
-{
+#loginpanel {
 	width: 50%;
 	float: left;
 }
 
-#registerpanel
-{
+#registerpanel {
 	width: auto;
 	margin-left: 50%;
-	
 	border-left: solid thin #cccb88;
 }
 
-.loginform
-{
+.loginform {
 	width: 75%;
 
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.loginform label
-{
+.loginform label {
 	padding-right: 10px;
 }
 
-.loginform td
-{
+.loginform td {
 	padding: 10px 0px;
 }
 
-.logintitle
-{
+.logintitle {
 	text-align: center;
-	
 	padding-bottom: 10px;
 	border-bottom: solid thin #a50c0e;
 }
 
-.loginsubmit
-{
+.loginsubmit {
 	text-align: center;
 	border-top: solid thin #a50c0e;
 }
 
-.loginsubmit input
-{
+.loginsubmit input {
 	color: white;
 	background-color: #36402c;
 	border: none;
@@ -224,21 +179,18 @@ footer a
 }
 
 /* index selectors define style of elements in index.html */
-#indexWhatIs
-{
+#indexWhatIs {
 	width: 50%;
 	float: left;
 	border-right: solid thin #cccb88;
 }
 
-#indexFacts
-{
+#indexFacts {
 	width: auto;
 	margin-left: 50%;
 }
 
-#imgplaceholder
-{
+#imgplaceholder {
 	background-size: 100%;
 	width: 100%;
 	height: 200px;
@@ -248,191 +200,148 @@ footer a
 }
 
 /* nav, .menu and .dropdown define style for the navigation bar */
-nav
-{
+nav {
   position: absolute;
   right: 0px;
   bottom: 0px;
 }
 
-nav ul
-{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-
-nav li
-{
+nav li {
 	float: left;
 }
 
+nav ul {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
 
-nav li a, .button
-{
+nav li a, .button {
 	display: inline-block;
-	color: #fffebb;
-	text-align: center;
-	padding: 14px 42px;
 	text-decoration: none;
+	text-align: center;
+	color: #fffebb;
+	padding: 14px 45px;
+}
+
+nav li.dropdown {
+	display: inline-block;
+}
+
+nav .menu {
+	display: none;
+	max-width: 140px;
+	position: absolute;
+	background-color: #a50c0e;
+}
+
+nav .menu a {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+	color: #fffebb;
+	padding: 12px 22px;
+}
+
+nav li a:active {
+    background-color: black;
 }
 
 nav li a:hover, .dropdown:hover .button {
 	background-color: #a50c0e;
 }
 
-nav li.dropdown
-{
-	display: inline-block;
-}
-
-.menu
-{
-	display: none;
-	position: absolute;
-	background-color: #a50c0e;
-	max-width: 140px;
-}
-
-.menu a
-{
-    color: #fffebb;
-    padding: 12px 20px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-nav li a:active
-{
-    background-color: black;
-}
-
-.menu a:hover
-{
+nav .menu a:hover {
     background-color: #36402c;
 }
 
-.dropdown:hover .menu
-{
-  display: block;
+nav .dropdown:hover .menu {
+	display: block;
 }
 	
-
-
 /* team selectors define style for the aboutus page */
-
-#comment p {
-    margin-left: 23px;
+#comment h2 {
     font-size: 1.1em;
     font-weight: bold;
+	text-align: left;
+	padding-left: 3px;
 }
 
-#comment textarea
-{
-  margin: auto;
-  width: 130%;
-  /*removed padding */
-  
-}
+#comment textarea {
+	margin: auto;
+	width: 130%;
+ }
 
-#comment 
-{
-	margin-left: 35px;
+#comment  {
+	margin-left: 70px;
 }
 
 #tablediv h1 {
-    margin-left: 23px;
+    
     font-size: 1.3em;
     font-weight: bold;
 }
-#team
-{
-  margin-left: 70px; /* it was margin auto */ 
-  width: 80%;	
+
+#team {
+	margin-left: 70px; 
+	width: 80%;	
 }
 
-#team input
-{
-  float: right;
-  margin-right: 280px;
-  margin-bottom: 30px;
+#team input {
+	float: right;
+	margin-right: 280px;
+	margin-bottom: 30px;
 }
 
 .team_row:nth-child(odd){
-  background-color: #f2f2f2
+	background-color: #f2f2f2
 }
 
-.team_d
-{
-  border: 1px solid black;
-  height: 5px;
-  padding: 10px;
+.team_d {
+	border: 1px solid black;
+	height: 5px;
+	padding: 10px;
 }
 
-.team_h
-{
-  border: 1px solid black;
-  height: 5px;
-  padding: 10px;
+.team_h {
+	border: 1px solid black;
+	height: 5px;
+	padding: 10px;
 }
 
-
-caption
-{
-  font-size: 1.5em
+caption {
+	font-size: 1.5em
 }
-
 
 /* styles selectors define style for the styles.html page */
-#stylesList
-{
-  width: 25%;
-  float: left;
-  border-right: solid thin #cccb88;
+#stylesList {
+	width: 25%;
+	float: left;
+	border-right: solid thin #cccb88;
+	
 }
 
-#stylesList ul
-{
-  margin:auto;
-  width:100%;
-  padding-left:0;
+#stylesList ul {
+	margin: auto;
+	width: 100%;
+	padding-left: 0;
 }
 
-#stylesList li
-{
-  text-decoration: none;
-  list-style-type: none;
-  
-  margin: auto;
-  padding: 15px 0;
-
-  background-color: #36402c;
-  width : 100%;
-}
-
-#stylesList a
-{
-	width:100%;
-	display: inline-block;
+#stylesList li {
+	list-style-type: none;
+	padding: 15px;
+	background-color: #36402c;
 	color: #fffebb;
 	text-align: center;
-
 	border-bottom: thin solid #fffebb;
-
-	padding: 0;
-	margin: 0;
-
-	text-decoration: none;
 }
-#stylesList a:last-child
-{
+
+#stylesList a:last-child {
 	border-bottom: none;
 }
 
-#stylesList li:hover
-{
+#stylesList li:hover {
 	background-color: #a50c0e;
 	cursor: pointer;
 }
@@ -444,28 +353,29 @@ caption
 }
 
 /* about selectors define style for elements in abouthema.html */
-
-#aboutcontent p
-{
+#aboutcontent p {
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#hemamap
-{
+#hemamap {
 	display: block;
-
 	margin: 10px auto;
+	width: 50%;
+	height: 50%;
 }
 
 /* sitemap selectors define style for elements in sitemap.html */
-#sitemap a
-{
+#sitemap a {
 	color: black;
 	padding-left: 5px;	
 }
 
-#sitemap li
-{
+#sitemap li {
 	padding-top: 8px;
+	
+}
+
+#sitemap .indentedlist {
+	list-style-position: inside;
 }
