@@ -315,20 +315,20 @@ caption {
 }
 
 /* styles selectors define style for the styles.html page */
-#stylesList {
+.sideList {
 	width: 25%;
 	float: left;
 	border-right: solid thin #cccb88;
-	
+	background-color: #FF0000;
 }
 
-#stylesList ul {
+.sideList ul {
 	margin: auto;
 	width: 100%;
 	padding-left: 0;
 }
 
-#stylesList li {
+.sideList li {
 	list-style-type: none;
 	padding: 15px;
 	background-color: #36402c;
@@ -337,11 +337,11 @@ caption {
 	border-bottom: thin solid #fffebb;
 }
 
-#stylesList a:last-child {
+.sideList a:last-child {
 	border-bottom: none;
 }
 
-#stylesList li:hover {
+.sideList li:hover {
 	background-color: #a50c0e;
 	cursor: pointer;
 }
@@ -353,9 +353,10 @@ caption {
 }
 
 /* about selectors define style for elements in abouthema.html */
-#aboutcontent p {
-	margin-left: auto;
-	margin-right: auto;
+#aboutcontent {
+	margin-left: 25%;
+	margin-top: 0;
+	padding-top: 0;
 }
 
 #hemamap {
