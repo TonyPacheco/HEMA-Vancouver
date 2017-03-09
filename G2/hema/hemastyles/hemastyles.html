@@ -1,8 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>HEMA Styles</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="hemastyles.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 	<link rel="stylesheet" href="../../style/base.css">
@@ -39,21 +41,42 @@
 			<img id="bannerimg" src = "../../content/fenestraBanner.png" alt = "Two longsword fencers locked in a high bind.">
 			<div class="sideList">
 				<ul>
-					<li onclick="setLongsword()">Longsword</li>
-					<li onclick="setRapier()">Rapier</li>
-					<li onclick="setSidesword()">Sidesword</li>
-					<li onclick="setWrestling()">Wrestling</li>
-					<li onclick="setOther()">Other</li>
+					<li><a id="one" href="#">Longsword</a></li>
+					<li><a id="two" href="#">Rapier</a></li>
+					<li><a id="three" href="#">Sidesword</a></li>
+					<li><a id="four" href="#">Wrestling</a></li>
+					<li><a id="five" href="#">Other</a></li>
 				</ul>
 			</div>
-			<div id="styleDescriptions">
-				<h1 id="styleName">Style Name</h1>
+			<div id="default" class="styleDescriptions">
+				<h1>Style Name</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
-			<div id="longswordStyle" style="visibility: hidden">
-				<h1 id="styleName">Longsword</h1>
+
+			<div id="longsword" class="hidden">
+				<h1>Longsword</h1>
 				<p>This is some beautifully<br>formatted<br>text!</p>
 			</div>
+
+            <div id="rapier" class="hidden">
+                <h1>Rapier</h1>
+                <p>Rapier<br>formatted<br>text!</p>
+            </div>
+
+            <div id="sidesword" class="hidden">
+                <h1>Sidesword</h1>
+                <p>Sidesword<br>formatted<br>text!</p>
+            </div>
+
+            <div id="wrestling" class="hidden">
+                <h1>Wrestling</h1>
+                <p>Wrestling<br>formatted<br>text!</p>
+            </div>
+
+            <div id="other" class="hidden">
+                <h1>Other</h1>
+                <p>Other<br>formatted<br>text!</p>
+            </div>
 		</div>	
 	</main>
 	
@@ -63,27 +86,5 @@
 			<a href="../../sitemap/sitemap.html" >Site Map</a>
 		</div>
 	</footer>
-
-	<script>
-		function setLongsword() {
-			document.getElementById("styleDescriptions").innerHTML = document.getElementById("longswordStyle").innerHTML;
-		}
-
-		function setRapier() {
-			document.getElementById("styleName").innerHTML = "Rapier";
-		}
-
-		function setSidesword() {
-			document.getElementById("styleName").innerHTML = "Sidesword";
-		}
-
-		function setWrestling() {
-			document.getElementById("styleName").innerHTML = "Wrestling";
-		}
-
-		function setOther() {
-			document.getElementById("styleName").innerHTML = "Other";
-	}
-	</script>
 </body>
 </html>

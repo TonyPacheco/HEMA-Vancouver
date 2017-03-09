@@ -328,25 +328,37 @@ caption {
 	padding-left: 0;
 }
 
+
 .sideList li {
 	list-style-type: none;
 	padding: 15px;
 	background-color: #36402c;
-	color: #fffebb;
+
 	text-align: center;
 	border-bottom: thin solid #fffebb;
 }
 
+/* this was added to style the links in the list */
+.sideList a {
+    color: #fffebb;
+    text-decoration: none;
+}
+
+/* all the divs that are NOT BEING DISPAYED are HIDDEN using this class*/
+.hidden{
+    display: none;
+}
 .sideList a:last-child {
 	border-bottom: none;
 }
 
 .sideList li:hover {
 	background-color: #a50c0e;
-	cursor: pointer;
+	cursor:default;
 }
 
-#styleDescriptions {
+/*default style for the DIV that is BEING DISPLAYED*/
+.styleDescriptions {
 	margin-left: 25%;
 	margin-top: 0;
 	padding-top: 0;
