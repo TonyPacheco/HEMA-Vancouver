@@ -120,7 +120,7 @@ function checkConfPassword() {
 	}
 }
 
-document.getElementById("logpassword").onchange = checkLogPassword();
-document.getElementById("regpassword").onchange = checkRegPassword();
-document.getElementById("confpassword").onchange = checkConfPassword();
-document.getElementById("confemail").onchange = checkConfEmail();
+document.getElementById("logpassword").onchange = checkLogPassword;
+document.getElementById("regpassword").onchange = checkRegPassword;
+document.getElementById("confpassword").onchange = checkConfPassword;
+document.getElementById("confemail").onchange = checkConfEmail;
