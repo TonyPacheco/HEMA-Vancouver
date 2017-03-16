@@ -3,9 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Login/Signup</title>
-	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
-	<link rel="stylesheet" href="../style/base.css">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel|Titillium+Web" rel="stylesheet">
+	<link rel="stylesheet" href="../style/base.css">	
 </head>
 <body>
 	<header>
@@ -37,7 +36,7 @@
 		<div id="wrapper">
 			<div id="loginpanel">
 				<div class="loginform">
-					<form onsubmit="checkForm()" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+					<form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
 						<table>
 							<tr>
 								<td class="logintitle" colspan="2">
@@ -49,7 +48,7 @@
 									<label for="logemail">Email address:</label>
 								</td>
 								<td>
-									<input type="email" name="logemail" id="logemail">
+									<input type="email" name="logemail" id="logemail" required>
 								</td>
 							</tr>
 							<tr>
@@ -57,7 +56,7 @@
 									<label for="logpassword">Password:</label>
 								</td>
 								<td>
-									<input type="text" name="logpassword" id="logpassword">
+									<input type="password" name="logpassword" id="logpassword" required>
 								</td>
 							</tr>
 							<tr>
@@ -71,7 +70,7 @@
 			</div>
 			<div id="registerpanel">
 				<div class="loginform">
-					<form onsubmit="checkForm()" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+					<form onsubmit="return checkRegistration()" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
 						<table>
 							<tr>
 								<td class="logintitle" colspan="2">
@@ -83,7 +82,7 @@
 									<label for="regemail">Email address:</label>
 								</td>
 								<td>
-									<input type="email" name="regemail" id="regemail">
+									<input type="email" name="regemail" id="regemail" required>
 								</td>
 							</tr>
 							<tr>
@@ -91,7 +90,7 @@
 									<label for="confemail">Confirm email:</label>
 								</td>
 								<td>
-									<input type="text" name="confemail" id="confemail">
+									<input type="text" name="confemail" id="confemail" required>
 								</td>
 							</tr>							
 							<tr>
@@ -99,7 +98,15 @@
 									<label for="regpassword">Password:</label>
 								</td>
 								<td>
-									<input type="text" name="regpassword" id="regpassword">
+									<input type="password" name="regpassword" id="regpassword" required>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="confpassword">Confirm password:</label>
+								</td>
+								<td>
+									<input type="password" name="confpassword" id="confpassword" required>
 								</td>
 							</tr>
 							<tr>
@@ -121,14 +128,6 @@
 		</div>
 	</footer>
 
-	<script>
-	function checkForm() {
-		console.log("checking form.");
-		if(document.getElementById("logemail").value == "") {
-			alert("please enter a valid email address.");
-			return false;
-		}
-	}
-	</script>
+	<script type="text/javascript" src="validate.js"></script>
 </body>
 </html>
