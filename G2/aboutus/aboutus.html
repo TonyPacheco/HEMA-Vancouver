@@ -72,19 +72,19 @@
                
 				<div id="comment">
                     <h2> If you have any comments about HEMA or our website, please leave them below.</h2>
-					<form>
+					<form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
 						<table>
 							<tr>
 								<td>
 								<label for="firstlast">Name:</label><br>
-								<input id="firstlast" type="text" name="Name">
+								<input id="firstlast" type="text" name="Name" required>
 								</td>
 							</tr>
 						
 							<tr>
 								<td>
 								<label for="email">Email:</label><br>
-								<input id="email" type="text" name="email">
+								<input id="email" type="text" name="email" required>
 								</td>
 							</tr>
 						
@@ -92,7 +92,7 @@
 								<td>
 								
 									<label for="comments">Comments:</label>
-									<textarea id="comments" rows="5" name="comments"></textarea>
+									<textarea id="comments" rows="5" name="comments" required></textarea>
 									<input type="submit" value="Submit">
 								</td>
 							</tr>
@@ -110,5 +110,7 @@
 			<a href="../sitemap/sitemap.html">Site Map</a>
     </div>
 	</footer>
+
+	<script type="text/javascript" src="aboutus-validate.js"></script>
 </body>
 </html>
