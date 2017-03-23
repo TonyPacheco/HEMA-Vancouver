@@ -260,7 +260,7 @@ nav .dropdown:hover .menu {
 	display: block;
 }
 	
-/* team selectors define style for the aboutus page */
+/* selectors for the aboutus page */
 #comment h2 {
     font-size: 1.1em;
     font-weight: bold;
@@ -354,7 +354,7 @@ caption {
 
 .sideList li:hover {
 	background-color: #a50c0e;
-	cursor:default;
+	cursor: pointer;
 }
 
 /*default style for the DIV that is BEING DISPLAYED*/
@@ -365,17 +365,30 @@ caption {
 }
 
 /* about selectors define style for elements in abouthema.html */
-#aboutcontent {
+.aboutContent {
 	margin-left: 25%;
 	margin-top: 0;
 	padding-top: 0;
 }
 
-#hemamap {
+#hemainbcText
+{
+	width: 60%;
+	float: left;
+
+	padding-right: 20px;
+}
+
+#maps-embed
+{
 	display: block;
-	margin: 10px auto;
-	width: 50%;
-	height: 50%;
+
+	width: 30%;
+	height: 450px;
+
+	margin: 20px auto 10px 65%;
+
+	border: thin solid black;
 }
 
 /* sitemap selectors define style for elements in sitemap.html */
