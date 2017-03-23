@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>About HEMA</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="aboutlist.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 	<link rel="stylesheet" href="../../style/base.css">
@@ -40,19 +42,27 @@
 
 			<div class="sideList">
 				<ul>
-					<a><li onclick="setLongsword()">HEMA History</li></a>
-					<a><li onclick="setRapier()">Why do HEMA?</li></a>
-					<a><li onclick="setSidesword()">Getting Involved</li></a>
+					<a id="one" href="#"><li>HEMA History</li></a>
+					<a id="two" href="#"><li>Why do HEMA?</li></a>
+					<a id="three" href="#"><li>Getting Involved</li></a>
 				</ul>
 			</div>
-			<div id="aboutcontent">
-				
+			<div id="default" class="aboutContent">
 				<h1>HEMA History</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
 
+			<div id="aboutHistory" class="hidden">
+				<h1>HEMA History</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+
+			<div id="aboutWhy" class="hidden">
 				<h1>Why do HEMA?</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				
+			</div>
+
+			<div id="aboutInvolved" class="hidden">
 				<h1>Getting Involved</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>

@@ -260,7 +260,7 @@ nav .dropdown:hover .menu {
 	display: block;
 }
 	
-/* team selectors define style for the aboutus page */
+/* selectors for the aboutus page */
 #comment h2 {
     font-size: 1.1em;
     font-weight: bold;
@@ -354,7 +354,7 @@ caption {
 
 .sideList li:hover {
 	background-color: #a50c0e;
-	cursor:default;
+	cursor: pointer;
 }
 
 /*default style for the DIV that is BEING DISPLAYED*/
@@ -365,7 +365,7 @@ caption {
 }
 
 /* about selectors define style for elements in abouthema.html */
-#aboutcontent {
+.aboutContent {
 	margin-left: 25%;
 	margin-top: 0;
 	padding-top: 0;
