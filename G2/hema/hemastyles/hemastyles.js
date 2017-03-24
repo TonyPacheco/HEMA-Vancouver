@@ -2,29 +2,34 @@
 
     $('#one').click(function () {
         $('#default').replaceWith($('#longsword').removeClass('hidden').addClass('styleDescriptions'));
-        $('#rapier, #sidesword, #wrestling, #other').addClass('hidden');
+        $('#rapier, #sidesword, #wrestling, #messer, #other').addClass('hidden');
         
     });
 
     $('#two').click(function () {
         $('#default').replaceWith($('#rapier').removeClass('hidden').addClass('styleDescriptions'));
-        $('#longsword, #sidesword, #wrestling, #other').addClass('hidden');
+        $('#longsword, #sidesword, #wrestling, #messer, #other').addClass('hidden');
         
     });
 
     $('#three').click(function () {
         $('#default').replaceWith($('#sidesword').removeClass('hidden').addClass('styleDescriptions'));
-        $('#longsword, #rapier, #wrestling, #other').addClass('hidden');
+        $('#longsword, #rapier, #wrestling, #messer, #other').addClass('hidden');
     });
 
     $('#four').click(function () {
         $('#default').replaceWith($('#wrestling').removeClass('hidden').addClass('styleDescriptions'));
-        $('#longsword, #rapier, #sidesword, #other').addClass('hidden');
+        $('#longsword, #rapier, #sidesword, #messer, #other').addClass('hidden');
     });
 
     $('#five').click(function () {
         $('#default').replaceWith($('#other').removeClass('hidden').addClass('styleDescriptions'));
-        $('#longsword, #rapier, #sidesword, #wrestling').addClass('hidden');
+        $('#longsword, #rapier, #sidesword, #messer, #wrestling').addClass('hidden');
+    });
+
+    $('#six').click(function () {
+        $('#default').replaceWith($('#messer').removeClass('hidden').addClass('styleDescriptions'));
+        $('#longsword, #rapier, #sidesword, #other, #wrestling').addClass('hidden');
     });
 
 

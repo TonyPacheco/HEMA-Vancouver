@@ -405,3 +405,9 @@ caption {
 #sitemap .indentedlist {
 	list-style-position: inside;
 }
+
+h4 {
+	text-align: center;
+	margin-top: 3px;
+	margin-bottom: 4px;
+}
