@@ -32,5 +32,4 @@
         $('#longsword, #rapier, #sidesword, #other, #wrestling').addClass('hidden');
     });
 
-
 });

@@ -371,24 +371,10 @@ caption {
 	padding-top: 0;
 }
 
-#hemainbcText
-{
+#hemainbcText {
 	width: 60%;
 	float: left;
-
 	padding-right: 20px;
-}
-
-#maps-embed
-{
-	display: block;
-
-	width: 30%;
-	height: 450px;
-
-	margin: 20px auto 10px 65%;
-
-	border: thin solid black;
 }
 
 /* sitemap selectors define style for elements in sitemap.html */
@@ -399,13 +385,11 @@ caption {
 
 #sitemap li {
 	padding-top: 8px;
-	
 }
 
 #sitemap .indentedlist {
 	list-style-position: inside;
 }
-
 
 h4 {
 	text-align: center;
@@ -413,6 +397,7 @@ h4 {
 	margin-bottom: 4px;
 }
 
+/* the tooptip widget and the maps widget */
 .tooltip {
 	display:none;
 	position:absolute;
@@ -422,4 +407,13 @@ h4 {
 	padding:10px;
 	color:#fff;
 	font-size:12px Arial;
+}
+
+#maps-embed {
+	display: block;
+	width: 30%;
+	height: 450px;
+	margin: 20px auto 10px 65%;
+	border: thin solid black;
+	border: none;
 }
