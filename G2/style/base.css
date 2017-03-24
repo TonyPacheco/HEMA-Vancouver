@@ -354,7 +354,7 @@ caption {
 
 .sideList li:hover {
 	background-color: #a50c0e;
-	cursor: pointer;
+	cursor: auto;
 }
 
 /*default style for the DIV that is BEING DISPLAYED*/
