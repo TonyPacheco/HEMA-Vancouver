@@ -17,7 +17,7 @@ function checkComment() {
 	var commentBox = document.getElementById("comments");
 	var comment = commentBox.value;
 
-	var pattern = /^[a-zA-Z0-9!@#%^&*_,.]*$/;
+	var pattern = /^[a-zA-Z0-9!@#%^&*_,. ]*$/;
 
 	if(comment.search(pattern) == -1) {
 		commentBox.setCustomValidity("Comment contains invalid characters. A-Z, a-z, 0-9, and ! @ # % ^ & * _ , . are valid.");
