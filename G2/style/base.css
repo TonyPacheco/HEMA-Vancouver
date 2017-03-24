@@ -406,8 +406,20 @@ caption {
 	list-style-position: inside;
 }
 
+<<<<<<< HEAD
 h4 {
 	text-align: center;
 	margin-top: 3px;
 	margin-bottom: 4px;
+=======
+.tooltip {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#161616;
+	border-radius:5px;
+	padding:10px;
+	color:#fff;
+	font-size:12px Arial;
+>>>>>>> 49c0d98c47fac900923fdb3d2a61f71ec1c1c9b1
 }
