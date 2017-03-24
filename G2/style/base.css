@@ -45,10 +45,10 @@ main h1 {
 
 /* header is a fixed region at the top of the page containing the logo and navigation */
 header {
-	background-image: url(../image/logo.png);
+	background-image: url(../content/logo.png);
 	background-repeat: no-repeat;
 	background-position: left;
-	background-size: 137px;
+	background-size: 210px;
 	position: fixed;
 	top: 0;
 	background-color: #36402c;
