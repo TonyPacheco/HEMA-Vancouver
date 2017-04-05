@@ -354,7 +354,7 @@ caption {
 
 .sideList li:hover {
 	background-color: #a50c0e;
-	cursor: pointer;
+	cursor: auto;
 }
 
 /*default style for the DIV that is BEING DISPLAYED*/
@@ -371,24 +371,10 @@ caption {
 	padding-top: 0;
 }
 
-#hemainbcText
-{
+#hemainbcText {
 	width: 60%;
 	float: left;
-
 	padding-right: 20px;
-}
-
-#maps-embed
-{
-	display: block;
-
-	width: 30%;
-	height: 450px;
-
-	margin: 20px auto 10px 65%;
-
-	border: thin solid black;
 }
 
 /* sitemap selectors define style for elements in sitemap.html */
@@ -399,13 +385,11 @@ caption {
 
 #sitemap li {
 	padding-top: 8px;
-	
 }
 
 #sitemap .indentedlist {
 	list-style-position: inside;
 }
-
 
 #passwordReqs {
 	padding: 0;
@@ -413,4 +397,31 @@ caption {
 
 	color: red;
 	font-size: 8pt;
+}
+
+h4 {
+	text-align: center;
+	margin-top: 3px;
+	margin-bottom: 4px;
+}
+
+/* the tooptip widget and the maps widget */
+.tooltip {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#161616;
+	border-radius:5px;
+	padding:10px;
+	color:#fff;
+	font-size:12px Arial;
+}
+
+#maps-embed {
+	display: block;
+	width: 30%;
+	height: 450px;
+	margin: 20px auto 10px 65%;
+	border: thin solid black;
+	border: none;
 }

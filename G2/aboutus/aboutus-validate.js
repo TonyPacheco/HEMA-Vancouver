@@ -2,10 +2,10 @@ function checkName() {
 	var nameBox = document.getElementById("firstlast");
 	var name = nameBox.value;
 
-	var pattern = /^[a-zA-Z0-9 ]*$/;
+	var pattern = /^[a-zA-Z ]*$/;
 
 	if(name.search(pattern) == -1) {
-		nameBox.setCustomValidity("Name contains invalid characters. A-Z, a-z, 0-9, and space are valid.");
+		nameBox.setCustomValidity("Name contains invalid characters. A-Z, a-z, and space are valid.");
 		return false;
 	}
 
