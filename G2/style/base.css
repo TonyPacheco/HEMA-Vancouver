@@ -405,3 +405,12 @@ caption {
 #sitemap .indentedlist {
 	list-style-position: inside;
 }
+
+
+#passwordReqs {
+	padding: 0;
+	margin: 0;
+
+	color: red;
+	font-size: 8pt;
+}
