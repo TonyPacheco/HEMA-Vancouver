@@ -1,6 +1,8 @@
 function checkRegPassword() {
-	var input = document.getElementById("regpassword").value;
-	var password = document.getElementById("regpassword");
+	var input = 
+	document.getElementById("register_password").value;
+	var password = 
+	document.getElementById("register_password");
 	password.setCustomValidity("");
 
 	var patt = /^[a-zA-Z0-9!@#%^&*_]{8,}$/;
@@ -45,23 +47,10 @@ function checkRegPassword() {
 	}
 }
 
-function checkConfEmail() {
-	var confemail = document.getElementById("confemail");
-	var email = document.getElementById("regemail");
-
-	if(confemail.value != email.value)
-	{
-		confemail.setCustomValidity("Emails don't match.");
-		return false;
-	} else {
-		confemail.setCustomValidity("");
-		return true;
-	}
-}
-
 function checkConfPassword() {
-	var confpass = document.getElementById("confpassword");
-	var pass = document.getElementById("regpassword");
+	var confpass = 
+	document.getElementById("register_cpassword");
+	var pass = document.getElementById("register_password");
 
 	if(confpass.value != pass.value)
 	{
@@ -73,9 +62,10 @@ function checkConfPassword() {
 	}
 }
 
-document.getElementById("regpassword").onchange = checkRegPassword;
-document.getElementById("confpassword").onchange = checkConfPassword;
-document.getElementById("confemail").onchange = checkConfEmail;
+document.getElementById("register_password").onchange = 
+checkRegPassword;
+document.getElementById("register_cpassword").onchange = 
+checkConfPassword;
 
 $(document).ready(function() {
 
