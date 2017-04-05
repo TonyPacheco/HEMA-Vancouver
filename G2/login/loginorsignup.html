@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +43,7 @@
 		<div id="wrapper">
 			<div id="loginpanel">
 				<div class="loginform">
-					<form method="post" action="login.php">
+					<form method="post" action="../forum/login.php">
 						<table>
 							<tr>
 								<td class="logintitle" colspan="2">
@@ -71,9 +75,10 @@
 					</form>
 				</div>
 			</div>
+			
 			<div id="registerpanel">
 				<div class="loginform">
-					<form onsubmit="return checkRegistration()" method="post" action="register.php">
+					<form onsubmit="return checkRegistration()" method="post" action="../forum/register.php">
 						<table>
 							<tr>
 								<td class="logintitle" colspan="2">
