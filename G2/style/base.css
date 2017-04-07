@@ -425,3 +425,12 @@ h4 {
 	border: thin solid black;
 	border: none;
 }
+
+/* comments table */
+#commentstable {
+	width: 100%;
+}
+
+#commentstable td {
+	overflow: auto;
+}
