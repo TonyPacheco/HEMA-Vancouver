@@ -1,3 +1,8 @@
+<?php
+	include '../../forum/functions.php';
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +34,15 @@
 		</nav>
 		
 		<div id="login">
-			<a href="../../login/loginorsignup.php">Login/Signup</a>
+		<?php
+			if (isLoggedIn()){
+				echo 'Welcome, '. $_SESSION['SESS_FIRST_NAME'] . '  |  ';
+				echo '<a href="forum/logout.php">Logout</a><br/>';
+			} else {
+				echo '<a href="../../login/loginorsignup.php">Login / Signup</a>';
+			}
+		?>
+
 		</div>
 		    
 	</header>

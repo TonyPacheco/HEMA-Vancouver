@@ -1,5 +1,5 @@
 <?php
-	include 'functions.php';
+	include '../forum/functions.php';
 	
 	session_start();
 	
@@ -41,8 +41,16 @@
             </ul>
 		</nav>
     <div id="login">
-      <a href="../login/loginorsignup.php">Login/Signup</a>
-    </div>
+		<?php
+			if (isLoggedIn()){
+				echo 'Welcome, '. $_SESSION['SESS_FIRST_NAME'] . '  |  ';
+				echo '<a href="../forum/logout.php">Logout</a><br/>';
+			} else {
+				echo '<a href="../login/loginorsignup.php">Login / Signup</a>';
+			}
+		?>
+
+		</div>
 	</header>
 	
 	<main>	
@@ -112,6 +120,15 @@
                                     <input type="submit" value="Submit">
                                 </td>
 								<td>
+								<h2> If you want to talk to other users about his wesbite, use this forum </h2>
+								<?php
+									if (isLoggedIn()){
+										echo '<a href="../forum/forum.php">Go to forum</a><br/>';
+										echo '>><a href="../forum/add_topic_form.php">Create new topic</a>';
+									} else {
+										echo 'Please login to view Forums';
+									}
+								?>
 									<?php
 										$sql="SELECT * FROM $tbl_name ORDER BY id DESC";
 										$result=mysqli_query($GLOBALS["___mysqli_ston"], $sql);

@@ -36,14 +36,10 @@
 		<div id="login">
 		<?php
 			if (isLoggedIn()){
-				
-				//Question 1 - add user first name here
-				echo 'Welcome, '. $_SESSION['SESS_FIRST_NAME'] . '<br>';
+				echo 'Welcome, '. $_SESSION['SESS_FIRST_NAME'] . '  |  ';
 				echo '<a href="forum/logout.php">Logout</a><br/>';
-			
 			} else {
 				echo '<a href="login/loginorsignup.php">Login / Signup</a>';
-		
 			}
 		?>
 
