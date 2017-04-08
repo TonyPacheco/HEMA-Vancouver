@@ -268,30 +268,66 @@ nav .dropdown:hover .menu {
 	padding-left: 3px;
 }
 
+/* comments table */
+
 #comment textarea {
 	margin: auto;
-	width: 130%;
+	width: 80%;
  }
 
 #comment  {
-	margin-left: 70px;
+	width: 50%;
+	float: left;
+
+	border-right: solid thin #cccb88;
+}
+
+#commentstable {
+	width: 95%;
+	padding: 5%;
+}
+
+#forum {
+	width: auto;
+	margin-left: 50%;
+}
+
+#forum ul {
+	padding: 5%;
+	padding-left: 10%;
 }
 
 #tablediv h1 {
-    
     font-size: 1.3em;
     font-weight: bold;
 }
 
+#teamwrapper {
+	margin: 0;
+	border-bottom: solid thin #cccb88;	
+}
+
 #team {
-	margin-left: 70px; 
-	width: 80%;	
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
 }
 
 #team input {
 	float: right;
 	margin-right: 280px;
 	margin-bottom: 30px;
+}
+
+#comment h3 {
+	border-bottom: solid thin #cccb88;	
+	padding: 5px;
+}
+
+#forum h3 {
+	border-bottom: solid thin #cccb88;		
+	padding: 5px;
 }
 
 .team_row:nth-child(odd){
@@ -426,11 +462,3 @@ h4 {
 	border: none;
 }
 
-/* comments table */
-#commentstable {
-	width: 100%;
-}
-
-#commentstable td {
-	overflow: auto;
-}

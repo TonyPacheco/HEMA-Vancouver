@@ -54,7 +54,6 @@
 			</div>
 			
 			<div id="teamwrapper">
-			<br>
 				<table id="team">
 				
 				<caption>Meet the team</caption>
@@ -84,53 +83,54 @@
 						<td class="team_d"></td>
 					</tr>	
 				</table>
-				<br>
-               
-				<div id="comment">
-                    <h2> If you have any comments about HEMA or our website, please leave them below.</h2>
-                    <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
-                        <table id="commentstable">
-                            <tr>
-                                <td>
-                                <label for="firstlast">Name:</label><br>
-                                <input id="firstlast" type="text" name="Name" required>
-                                </td>
-                            </tr>
-                        
-                            <tr>
-                                <td>
-                                <label for="email">Email:</label><br>
-                                <input id="email" type="email" name="email" required>
-                                </td>
-                            </tr>
-                        
-                            <tr>
-                                <td>
-                                
-                                    <label for="comments">Comments:</label>
-                                    <textarea id="comments" rows="5" name="comments" required></textarea>
-                                    <input type="submit" value="Submit">
-                                </td>
-								<td>
-									<?php
-										$sql="SELECT * FROM $tbl_name ORDER BY id DESC";
-										$result=mysqli_query($GLOBALS["___mysqli_ston"], $sql);
-										$count = min(5, mysqli_num_rows($result));
-										if($count==0)
-											echo "<li>No topics</li>";
-										else
-											for($i=0; $i < $count; $i++){
-												$row=mysqli_fetch_array($result);
-												echo '<li><a href="../forum/view_topic.php?id='.$row['id'].'">'.$row['topic'].'</a></li>';
-											}
-								?>
-								</td>
-                            </tr>
-                        </table>
-                    </form>
+            </div>
+			<div id="comment">
+				<h3>Contact us</h3>
+                <form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+                    <table id="commentstable">
+                        <tr>
+                            <td>
+                            <label for="firstlast">Name:</label><br>
+                            <input id="firstlast" type="text" name="Name" required>
+                            </td>
+                        </tr>
                     
-					<br>
-				</div>
+                        <tr>
+                            <td>
+                            <label for="email">Email:</label><br>
+                            <input id="email" type="email" name="email" required>
+                            </td>
+                            <td id="forumcell" rowspan="2">
+                                
+							</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <label for="comments">Comments:</label><br>
+                                <textarea id="comments" rows="5" name="comments" required></textarea><br><br>
+                                <input type="submit" value="Submit">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+			</div>
+			<div id="forum">
+				<h3>User Forums</h3>
+				<ul>
+					<?php
+						$sql="SELECT * FROM $tbl_name ORDER BY id DESC";
+						$result=mysqli_query($GLOBALS["___mysqli_ston"], $sql);
+						$count = min(5, mysqli_num_rows($result));
+						if($count==0)
+							echo "<li>No topics</li>";
+						else
+							for($i=0; $i < $count; $i++){
+								$row=mysqli_fetch_array($result);
+								echo '<li><a href="../forum/view_topic.php?id='.$row['id'].'">'.$row['topic'].'</a></li>';
+							}
+					?>
+				</ul>
 			</div>
 		</div>			
 	</main>
