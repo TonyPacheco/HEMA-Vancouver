@@ -127,6 +127,7 @@ footer a {
 
 #login:hover {
 	background-color: #fffebb;
+	color: #36402c;
 }
 
 #login:hover a {
@@ -328,6 +329,12 @@ nav .dropdown:hover .menu {
 #forum h3 {
 	border-bottom: solid thin #cccb88;		
 	padding: 5px;
+}
+
+#forum h4 {
+	border-bottom: solid thin #cccb88;		
+	padding: 5px;
+	display: block;
 }
 
 .team_row:nth-child(odd){

@@ -1,5 +1,5 @@
 <?php
-	include 'functions.php';
+	include '../forum/functions.php';
 	
 	session_start();
 	
@@ -41,8 +41,16 @@
             </ul>
 		</nav>
     <div id="login">
-      <a href="../login/loginorsignup.php">Login/Signup</a>
-    </div>
+		<?php
+			if (isLoggedIn()){
+				echo 'Welcome, '. $_SESSION['SESS_FIRST_NAME'] . '  |  ';
+				echo '<a href="../forum/logout.php">Logout</a><br/>';
+			} else {
+				echo '<a href="../login/loginorsignup.php">Login / Signup</a>';
+			}
+		?>
+
+		</div>
 	</header>
 	
 	<main>	
@@ -101,10 +109,6 @@
                             <input id="email" type="email" name="email" required>
                             </td>
                             <td id="forumcell" rowspan="2">
-                                
-							</td>
-                        </tr>
-                    
                         <tr>
                             <td>
                                 <label for="comments">Comments:</label><br>
@@ -117,18 +121,28 @@
 			</div>
 			<div id="forum">
 				<h3>User Forums</h3>
-				<ul>
+				
 					<?php
-						$sql="SELECT * FROM $tbl_name ORDER BY id DESC";
-						$result=mysqli_query($GLOBALS["___mysqli_ston"], $sql);
-						$count = min(5, mysqli_num_rows($result));
-						if($count==0)
-							echo "<li>No topics</li>";
-						else
-							for($i=0; $i < $count; $i++){
-								$row=mysqli_fetch_array($result);
-								echo '<li><a href="../forum/view_topic.php?id='.$row['id'].'">'.$row['topic'].'</a></li>';
-							}
+						if (isLoggedIn()){
+							echo '<h4><a href="../forum/forum.php">Go to forum</a></h4>';
+							echo '<h4><a href="../forum/add_topic_form.php">Create new topic</a></h4>';
+						} else {
+							echo '<h3>Please login to view Forums</h3>';
+						}
+					?>
+
+					<ul>
+						<?php
+							$sql="SELECT * FROM $tbl_name ORDER BY id DESC";
+							$result=mysqli_query($GLOBALS["___mysqli_ston"], $sql);
+							$count = min(5, mysqli_num_rows($result));
+							if($count==0)
+								echo "<li>No topics</li>";
+							else
+								for($i=0; $i < $count; $i++){
+									$row=mysqli_fetch_array($result);
+									echo '<li><a href="../forum/view_topic.php?id='.$row['id'].'">'.$row['topic'].'</a></li>';
+								}
 					?>
 				</ul>
 			</div>
