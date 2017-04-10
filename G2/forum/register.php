@@ -85,7 +85,7 @@
 	if($errflag) {
 		$_SESSION['ERRMSG_ARR'] = $errmsg_arr;
 		session_write_close();
-		header("location: ../login/loginorsignup.html");
+		header("location: ../login/loginorsignup.php");
 		exit();
 	}
 
@@ -95,7 +95,7 @@
 	
 	//Check whether the query was successful or not
 	if($result) {
-		header("location: login.php?login=".$login."&password=".$password);
+		header("location: login.php?login_id=".$login."&login_password=".$password);
 		exit();
 	}else {
 		die("Query failed");

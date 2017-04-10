@@ -1,3 +1,8 @@
+<?php
+	include '../../forum/functions.php';
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,24 +17,32 @@
 		<h1>HEMA</h1>
 		<nav>
 			<ul>
-				<li><a href="../../index.html">Home</a></li>
+				<li><a href="../../index.php">Home</a></li>
 				
 				<li class="dropdown">
 					<a href="#" class="button">HEMA</a>
 					<div class="menu">
-						<a href="../abouthema/abouthema.html">About HEMA</a>
-						<a href="../hemastyles/hemastyles.html">HEMA Styles</a>
+						<a href="../abouthema/abouthema.php">About HEMA</a>
+						<a href="../hemastyles/hemastyles.php">HEMA Styles</a>
 						<a href="#">HEMA in BC</a>
 					</div>
 				</li>
 				
-                <li><a href="../../aboutus/aboutus.html">About Us</a></li>
+                <li><a href="../../aboutus/aboutus.php">About Us</a></li>
 				
 			</ul>
 		</nav>
 		
 		<div id="login">
-			<a href="../../login/loginorsignup.html">Login/Signup</a>
+		<?php
+			if (isLoggedIn()){
+				echo 'Welcome, '. $_SESSION['SESS_FIRST_NAME'] . '  |  ';
+				echo '<a href="forum/logout.php">Logout</a><br/>';
+			} else {
+				echo '<a href="../../login/loginorsignup.php">Login / Signup</a>';
+			}
+		?>
+
 		</div>
 		    
 	</header>
@@ -44,7 +57,7 @@
 				<p><a href="http://www.bloodandiron.ca">Blood And Iron</a> is multi-chapter school with locations in Burnaby and Victoria. They are well known in the international HEMA community for producing high intensity and highly successful tournament fighters.
 				<P><a href="http://boxwrestlefence.com/valkyriewmaa">Valkyrie WMAA</a> in Vancouver is new in the HEMA scene, having opened in 2015. Valkyrire is Canada's first martial arts school to be owned and operated by women; and they put heavy emphasis on wanted to ensure that their school is welcoming place for students of all backgrounds.
 			</div>
-			<iframe id="maps-embed" width="600" height="450" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyD8ETPBw8qiG5hG89BIxOebzQGffU3u53A&q=hema+vancouver&zoom=10" allowfullscreen></iframe>
+			<iframe id="maps-embed" width="600" height="450" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyD8ETPBw8qiG5hG89BIxOebzQGffU3u53A&q=swordfighting|valkyrie&zoom=10" allowfullscreen></iframe>
 			</div>
 		
 	</main>
@@ -52,7 +65,7 @@
 	<footer>
 		<div id="footercontent"> 
 			&copy; 2017 some students 
-			<a href="../../sitemap/sitemap.html">Site Map</a>
+			<a href="../../sitemap/sitemap.php">Site Map</a>
 		</div>
 	</footer>
 </body>
