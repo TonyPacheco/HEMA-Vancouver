@@ -57,38 +57,38 @@
 		<div id="wrapper">
 			<div id="imgplaceholder">
                 
-                <p>Team picture here!</p>
+                <img src = "../content/us1.jpg" width=50% alt = "Our team, smiling, not a care in the world.">
 
 			</div>
 			
 			<div id="teamwrapper">
 				<table id="team">
 				
-				<caption>Meet the team</caption>
+				<caption>Meet The Team</caption>
 				
 					<tr class="team_row">
 						<th class="team_h">Name</th>
 						<th class="team_h">About the team member</th>
 					</tr>
 					<tr class="team_row">
-						<td class="team_d">Tony Pacheco</td>
-						<td class="team_d"> </td>
+						<td class="team_d">Prabhvir Saran</td> 
+						<td class="team_d">Prabject Supervisor, slack team lead, and wearer of red.</td>
 					</tr>
 					<tr class="team_row">
 						<td class="team_d">Bhagwan Singh Virdi</td> 
-						<td class="team_d"></td>
+						<td class="team_d">Human Male.</td>
 					</tr>
 					<tr class="team_row">
-						<td class="team_d">Prabhvir Saran</td> 
-						<td class="team_d"></td>
+						<td class="team_d">Tony Pacheco</td>
+						<td class="team_d">Team's resident HEMA'ist and haver of good times.</td>
 					</tr>
 					<tr class="team_row">
 						<td class="team_d">Liam Maclntyre</td> 
-						<td class="team_d"></td>
+						<td class="team_d">Cheif code wizard, tamer of PHP, and handler of exceptions.</td>
 					</tr>
 					<tr class="team_row">
 						<td class="team_d">Jaisreet Khaira</td> 
-						<td class="team_d"></td>
+						<td class="team_d">Milestone wrangler and documentation fiend.</td>
 					</tr>	
 				</table>
             </div>
