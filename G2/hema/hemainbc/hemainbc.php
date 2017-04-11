@@ -57,7 +57,7 @@
 				<p><a href="http://www.bloodandiron.ca">Blood And Iron</a> is multi-chapter school with locations in Burnaby and Victoria. They are well known in the international HEMA community for producing high intensity and highly successful tournament fighters.
 				<P><a href="http://boxwrestlefence.com/valkyriewmaa">Valkyrie WMAA</a> in Vancouver is new in the HEMA scene, having opened in 2015. Valkyrire is Canada's first martial arts school to be owned and operated by women; and they put heavy emphasis on wanted to ensure that their school is welcoming place for students of all backgrounds.
 			</div>
-			<iframe id="maps-embed" width="600" height="450" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyD8ETPBw8qiG5hG89BIxOebzQGffU3u53A&q=swordfighting|valkyrie&zoom=10" allowfullscreen></iframe>
+			<iframe id="maps-embed" width="600" height="450" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyD8ETPBw8qiG5hG89BIxOebzQGffU3u53A&q=historical martial arts&zoom=10" allowfullscreen></iframe>
 			</div>
 		
 	</main>

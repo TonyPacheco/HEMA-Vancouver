@@ -56,9 +56,9 @@
 				<p>Unlike Eastern martial arts, the traditions and schools of most European martial arts were lost to time, so the focus of HEMA is the rediscovery and revival of these ‘dead’ arts. Practitioners study manuals written by the old masters of their arts and from these manuals, they reconstruct the fighting systems and teach others.</p>
 				<p>As a sport HEMA has been growing quickly since a boom in awareness of the study of what is often refferred to simply as 'swordfighting'. A combination of common access to the interenet allowing direct access to historical sources, and the emergence of HEMA clubs and schools, means that learning the 'forgotten' arts of everything from longsword duelling to umbrella self defence is more acccessible than ever.</p>
 			</div>
-			<div id="indexFacts">
-				<h1>Quick facts</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div id="indexImg">
+				<h1>Picture Of The Day</h1>
+				<img src = "content/rapiervlongsword1.jpg" alt="Two fencers in guard, one with a rapier and the other with a longsword." width=405 height=405>
 			</div>
 		</div>	
 	</main>

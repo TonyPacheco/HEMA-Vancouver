@@ -186,9 +186,18 @@ footer a {
 	border-right: solid thin #cccb88;
 }
 
-#indexFacts {
+#indexImg {
 	width: auto;
 	margin-left: 50%;
+	text-align: center;
+}
+
+#indexImg h1 {
+	margin-bottom: 0;
+}
+
+#indexImg img{
+	padding:5px;
 }
 
 #imgplaceholder {
