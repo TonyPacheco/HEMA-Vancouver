@@ -156,11 +156,6 @@
 								</td>
 							</tr>
 							<tr>
-								<td id="passwordReqs" colspan="2">
-									Password must be at least 8 characters long and contain a capital and numeral.
-								</td>
-							</tr>
-							<tr>
 								<td class="loginsubmit" colspan="2">
 									<input type="submit" value="submit">
 								</td>
@@ -186,7 +181,7 @@
 	
 	<footer>
 		<div id="footercontent"> 
-			&copy; 2017 some students 
+			&copy; 2017 COMP 1536 Project 
 			<a href="../sitemap/sitemap.php">Site Map</a>
 		</div>
 	</footer>
