@@ -63,7 +63,7 @@
 	
 	<footer>
 		<div id="footercontent"> 
-			&copy; 2017 some students 
+			&copy; 2017 COMP 1536 Project
 			<a href="#">Site Map</a>
 		</div>
 	</footer>
