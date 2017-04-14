@@ -37,7 +37,7 @@
 		<?php
 			if (isLoggedIn()){
 				echo 'Welcome, '. $_SESSION['SESS_FIRST_NAME'] . '  |  ';
-				echo '<a href="forum/logout.php">Logout</a><br/>';
+				echo '<a href="../../forum/logout.php">Logout</a><br/>';
 			} else {
 				echo '<a href="../../login/loginorsignup.php">Login / Signup</a>';
 			}
